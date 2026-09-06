@@ -36,6 +36,7 @@ const state = {
   alignmentStarted: false,
   alignmentMatchesVisible: false,
   includeFormerMembers: false,
+  includeFormerCards: false,
   alignmentQuestions: null,
   cardCategory: "all",
   cardDecision: "divided",
@@ -83,7 +84,7 @@ async function boot() {
 function cacheElements() {
   [
     "loading", "error", "app", "status-banner", "dataset-summary", "member-search",
-    "card-category", "card-decision", "card-result-count", "member-cards", "member-profile",
+    "card-category", "card-decision", "card-include-former-members", "card-result-count", "member-cards", "member-profile",
     "member-categories", "motion-search", "motion-category", "motion-stage", "motion-decision", "motion-member",
     "motion-vote", "motion-meeting", "motion-year", "motion-sort", "motion-result-count",
     "motion-list", "load-more", "clear-filters", "match-note", "match-results",
@@ -109,6 +110,10 @@ function bindEvents() {
   });
   elements.cardDecision.addEventListener("change", () => {
     state.cardDecision = elements.cardDecision.value;
+    renderCards();
+  });
+  elements.cardIncludeFormerMembers.addEventListener("change", () => {
+    state.includeFormerCards = elements.cardIncludeFormerMembers.checked;
     renderCards();
   });
   [
@@ -289,8 +294,10 @@ function route() {
 function renderCards() {
   const query = elements.memberSearch.value.trim().toLocaleLowerCase();
   const reports = state.data.reports
+    .filter((report) => state.includeFormerCards || report.currently_sitting)
     .filter((report) => !query || `${report.name} ${report.party}`.toLocaleLowerCase().includes(query))
     .sort((a, b) => b.last_vote_date.localeCompare(a.last_vote_date) || a.name.localeCompare(b.name));
+  elements.cardIncludeFormerMembers.checked = state.includeFormerCards;
   const selectedCategory = state.cardCategory;
   const selectedDecision = state.cardDecision;
   const category = selectedCategory === "all" ? null : state.maps.categories.get(selectedCategory);
