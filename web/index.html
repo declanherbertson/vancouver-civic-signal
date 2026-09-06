@@ -6,8 +6,8 @@
     <meta name="description" content="Explore City of Vancouver council voting records by member, issue, and motion.">
     <title>Vancouver Votes — Council voting records</title>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23174c50'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Georgia' font-size='25' fill='white'%3EVV%3C/text%3E%3C/svg%3E">
-    <link rel="stylesheet" href="styles.css?v=19">
-    <script src="app.js?v=19" defer></script>
+    <link rel="stylesheet" href="styles.css?v=23">
+    <script src="app.js?v=23" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -117,17 +117,16 @@
         <section id="alignment-view" class="view" hidden aria-labelledby="alignment-title">
           <div class="shell page-heading alignment-heading">
             <h1 id="alignment-title">Find your council match</h1>
-            <p class="alignment-intro">Answer 20 questions drawn from divided Council votes and compare your choices with councillors' records. You can continue with 20 more afterward.</p>
+            <p class="alignment-intro">Vote on 20 past council motions and compare your choices with councillors' records.</p>
             <button id="alignment-start" class="primary-button alignment-start" type="button">Get started</button>
             <p class="alignment-disclaimer">Your result shows which councillors voted like you on these motions—not your overall political match. The quiz emphasizes divisions between the governing majority and other councillors because those votes better distinguish voting records.</p>
           </div>
-          <div class="shell alignment-progress-wrap">
-            <div class="alignment-progress-copy"><strong id="alignment-progress-label">0 of 20 starter questions answered</strong><span id="alignment-progress-context">Results unlock after 10 answers.</span></div>
-            <div class="alignment-progress" aria-hidden="true"><span id="alignment-progress-bar"></span></div>
+          <div class="shell alignment-match-controls">
+            <label class="alignment-live-toggle"><input id="show-live-matches" type="checkbox" aria-controls="alignment-sidebar"><span>Show live council matches</span></label>
           </div>
-          <div class="shell alignment-layout">
+          <div id="alignment-layout" class="shell alignment-layout">
             <section id="alignment-question" aria-live="polite"></section>
-            <aside class="alignment-sidebar" aria-labelledby="alignment-results-title">
+            <aside id="alignment-sidebar" class="alignment-sidebar" aria-labelledby="alignment-results-title" hidden>
               <div class="alignment-results-heading">
                 <div><p id="alignment-results-kicker" class="eyebrow">10 answers needed</p><h2 id="alignment-results-title">Council matches</h2></div>
                 <button id="clear-alignment" class="text-button" type="button">Start over</button>
@@ -169,7 +168,7 @@
 
     <footer class="site-footer">
       <div class="shell footer-inner">
-        <p><strong>About this project</strong><br>A weekend project by someone who started out knowing very little about Vancouver city politics. It uses City open data and links back to City sources.</p>
+        <p><strong>About this project</strong><br>A weekend project by someone who knows very little about Vancouver city politics. It uses City open data and links back to City sources.</p>
         <p id="footer-source"></p>
       </div>
     </footer>

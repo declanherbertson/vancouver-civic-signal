@@ -33,6 +33,7 @@ const state = {
   alignmentRemainderStarted: false,
   alignmentResultsRevealed: false,
   alignmentStarted: false,
+  alignmentMatchesVisible: false,
   includeFormerMembers: false,
   alignmentQuestions: null,
   cardCategory: "all",
@@ -86,7 +87,7 @@ function cacheElements() {
     "motion-vote", "motion-meeting", "motion-year", "motion-sort", "motion-result-count",
     "motion-list", "load-more", "clear-filters", "match-note", "match-results",
     "ballot-motions", "clear-ballot", "ballot-count", "footer-source", "motion-dialog",
-    "dialog-content", "alignment-progress-label", "alignment-progress-context", "alignment-progress-bar", "report-method-note",
+    "dialog-content", "report-method-note", "alignment-layout", "alignment-sidebar", "show-live-matches",
     "alignment-question", "alignment-results-kicker", "alignment-results-note", "alignment-results-disclaimer", "include-former-members", "alignment-results", "clear-alignment", "alignment-start",
     "ballot-include-former-members",
   ].forEach((id) => {
@@ -141,6 +142,7 @@ function bindEvents() {
       state.alignmentIndex = 0;
       state.alignmentRemainderStarted = false;
       state.alignmentResultsRevealed = false;
+      state.alignmentMatchesVisible = false;
       saveBallot();
       renderChrome();
       renderAlignment();
@@ -151,6 +153,10 @@ function bindEvents() {
     document.body.dataset.alignmentStarted = "true";
     window.scrollTo({ top: 0, behavior: "auto" });
     renderAlignment();
+  });
+  elements.showLiveMatches.addEventListener("change", () => {
+    state.alignmentMatchesVisible = elements.showLiveMatches.checked;
+    updateAlignmentMatchesVisibility();
   });
   elements.includeFormerMembers.addEventListener("change", () => {
     state.includeFormerMembers = elements.includeFormerMembers.checked;
@@ -523,33 +529,23 @@ function renderAlignment() {
     } else {
       state.alignmentIndex = starterCount;
     }
+    if (state.alignmentIndex === starterCount || state.alignmentIndex === questions.length) state.alignmentMatchesVisible = true;
     state.alignmentVisited = true;
   }
   state.alignmentIndex = Math.max(0, Math.min(state.alignmentIndex, questions.length));
-  if (state.alignmentRemainderStarted) {
-    elements.alignmentProgressLabel.textContent = `${answered.length} of ${questions.length} answered`;
-    elements.alignmentProgressContext.textContent = `${starterCount} starter questions plus ${questions.length - starterCount} additional motions.`;
-    elements.alignmentProgressBar.style.width = `${(answered.length / questions.length) * 100}%`;
-  } else {
-    elements.alignmentProgressLabel.textContent = `${starterAnswered} of ${starterCount} starter questions answered`;
-    elements.alignmentProgressContext.textContent = starterAnswered < ALIGNMENT_UNLOCK_COUNT
-      ? `Results unlock after ${ALIGNMENT_UNLOCK_COUNT} answers.`
-      : "Your live comparison is now available.";
-    elements.alignmentProgressBar.style.width = `${(starterAnswered / starterCount) * 100}%`;
-  }
 
   if (state.alignmentIndex === questions.length) {
     if (answered.length >= ALIGNMENT_UNLOCK_COUNT) state.alignmentResultsRevealed = true;
     elements.alignmentQuestion.innerHTML = `<article class="alignment-question-card alignment-complete">
       <p class="eyebrow">All ${questions.length} answered</p>
       <h2>You made all ${questions.length} choices.</h2>
-      <p>Your closest Council voting records are shown alongside. A match reflects these ${questions.length} motions—not every issue, value, or qualification.</p>
+      <p>Your closest Council voting records are ready to view. A match reflects these ${questions.length} motions—not every issue, value, or qualification.</p>
       <div class="alignment-card-nav"><button type="button" class="secondary-button" data-action="alignment-previous">Review answers</button><a class="primary-button" href="#ballot">See my full ballot</a></div>
     </article>`;
   } else if (state.alignmentIndex === starterCount && !state.alignmentRemainderStarted) {
     if (starterAnswered >= ALIGNMENT_UNLOCK_COUNT) state.alignmentResultsRevealed = true;
     const unlockMessage = starterAnswered >= ALIGNMENT_UNLOCK_COUNT
-      ? "Your starter comparison is shown alongside."
+      ? "Your starter comparison is ready."
       : `Answer ${ALIGNMENT_UNLOCK_COUNT - starterAnswered} more starter question${ALIGNMENT_UNLOCK_COUNT - starterAnswered === 1 ? "" : "s"} to unlock your comparison.`;
     elements.alignmentQuestion.innerHTML = `<article class="alignment-question-card alignment-complete">
       <p class="eyebrow">First ${starterCount} complete</p>
@@ -567,7 +563,6 @@ function renderAlignment() {
     const phaseNumber = inStarterSet ? state.alignmentIndex + 1 : state.alignmentIndex - starterCount + 1;
     const phaseTotal = inStarterSet ? starterCount : questions.length - starterCount;
     const phaseLabel = inStarterSet ? "Starter question" : "Additional question";
-    const detailsOpen = window.matchMedia("(min-width: 641px)").matches ? " open" : "";
     const nextLabel = state.alignmentIndex === questions.length - 1
       ? "See final results"
       : state.alignmentIndex === starterCount - 1
@@ -577,20 +572,15 @@ function renderAlignment() {
       <div class="alignment-question-meta"><span>${phaseLabel} ${phaseNumber} of ${phaseTotal}</span><span>${formatDate(motion.vote_date)}</span></div>
       <span class="category-badge" style="--category-color:${safeColor(category?.color)}">${escapeHtml(category?.label || "Unclassified")}</span>
       <h2>${escapeHtml(question.prompt)}</h2>
-      <details class="alignment-details"${detailsOpen}>
-        <summary>Read the context and arguments</summary>
+      <details class="alignment-details">
+        <summary>More context</summary>
         <div class="alignment-context"><p>${escapeHtml(question.context)}</p></div>
-        <div class="alignment-arguments">
-          <div class="alignment-argument argument-for"><strong>Supporters’ case</strong><p>${escapeHtml(argumentsForAndAgainst.for)}</p></div>
-          <div class="alignment-argument argument-against"><strong>Opponents’ case</strong><p>${escapeHtml(argumentsForAndAgainst.against)}</p></div>
-        </div>
-        <p class="alignment-argument-note">Concise good-faith arguments, not quotations or attributed motives.</p>
         <p class="alignment-source-title">Council record: ${escapeHtml(motion.agenda_description)}</p>
         <div class="alignment-sources">${question.meeting_agenda_url ? `<a href="${escapeHtml(question.meeting_agenda_url)}" target="_blank" rel="noreferrer">Official agenda & reports ↗</a>` : ""}${question.research_source_url && question.research_source_url !== question.meeting_agenda_url ? `<a href="${escapeHtml(question.research_source_url)}" target="_blank" rel="noreferrer">Additional official source ↗</a>` : ""}</div>
       </details>
       <div class="alignment-choices" role="group" aria-label="Your vote">
-        <button type="button" class="alignment-choice favour ${stance === "support" ? "selected" : ""}" data-action="set-alignment" data-motion-id="${escapeHtml(motion.motion_id)}" data-stance="support"><span>Vote</span>I’d vote in favour</button>
-        <button type="button" class="alignment-choice oppose ${stance === "oppose" ? "selected" : ""}" data-action="set-alignment" data-motion-id="${escapeHtml(motion.motion_id)}" data-stance="oppose"><span>Vote</span>I’d vote in opposition</button>
+        <button type="button" class="alignment-choice favour ${stance === "support" ? "selected" : ""}" data-action="set-alignment" data-motion-id="${escapeHtml(motion.motion_id)}" data-stance="support"><strong>I’d vote in favour</strong><span>${escapeHtml(argumentsForAndAgainst.for)}</span></button>
+        <button type="button" class="alignment-choice oppose ${stance === "oppose" ? "selected" : ""}" data-action="set-alignment" data-motion-id="${escapeHtml(motion.motion_id)}" data-stance="oppose"><strong>I’d vote in opposition</strong><span>${escapeHtml(argumentsForAndAgainst.against)}</span></button>
       </div>
       <p class="alignment-neutrality">The actual Council result is hidden while you decide. <button type="button" class="inline-button" data-action="open-motion" data-motion-id="${escapeHtml(motion.motion_id)}">Inspect the full record</button></p>
       <div class="alignment-card-nav">
@@ -600,7 +590,14 @@ function renderAlignment() {
     </article>`;
   }
 
+  updateAlignmentMatchesVisibility();
   renderAlignmentResults(featuredIds, answered.length);
+}
+
+function updateAlignmentMatchesVisibility() {
+  elements.showLiveMatches.checked = state.alignmentMatchesVisible;
+  elements.alignmentSidebar.hidden = !state.alignmentMatchesVisible;
+  elements.alignmentLayout.classList.toggle("matches-hidden", !state.alignmentMatchesVisible);
 }
 
 function renderAlignmentResults(featuredIds, answeredCount) {
@@ -702,6 +699,8 @@ function handleActionClick(event) {
   }
   if (action === "alignment-next") {
     state.alignmentIndex = Math.min(state.alignmentQuestions.length, state.alignmentIndex + 1);
+    const starterCount = Math.min(state.data.featured.selection.quiz_count, state.alignmentQuestions.length);
+    if (state.alignmentIndex === starterCount || state.alignmentIndex === state.alignmentQuestions.length) state.alignmentMatchesVisible = true;
     renderAlignment();
   }
   if (action === "alignment-remainder") {
@@ -718,6 +717,8 @@ function handleActionClick(event) {
     saveBallot();
     renderChrome();
     state.alignmentIndex = Math.min(state.alignmentQuestions.length, state.alignmentIndex + 1);
+    const starterCount = Math.min(state.data.featured.selection.quiz_count, state.alignmentQuestions.length);
+    if (state.alignmentIndex === starterCount || state.alignmentIndex === state.alignmentQuestions.length) state.alignmentMatchesVisible = true;
     renderAlignment();
   }
   if (action === "report-category") {
@@ -772,18 +773,19 @@ function alignmentArguments(question) {
     return { for: question.case_for, against: question.case_against };
   }
   const tradeoff = (question.tradeoff || "").replace(/^Weigh\s+/i, "").replace(/\.$/, "");
+  const asSentence = (value) => `${value.charAt(0).toUpperCase()}${value.slice(1)}.`;
   const splitAt = tradeoff.toLocaleLowerCase().indexOf(" against ");
   if (splitAt === -1) {
     return {
-      for: `Supporters emphasize the intended benefits: ${tradeoff}.`,
-      against: "Opponents question whether those benefits justify the costs, risks or tradeoffs.",
+      for: asSentence(tradeoff),
+      against: "The costs, risks or tradeoffs may outweigh those benefits.",
     };
   }
   const supportive = tradeoff.slice(0, splitAt);
   const opposing = tradeoff.slice(splitAt + " against ".length);
   return {
-    for: `Supporters emphasize ${supportive}.`,
-    against: `Opponents emphasize ${opposing}.`,
+    for: asSentence(supportive),
+    against: asSentence(opposing),
   };
 }
 
