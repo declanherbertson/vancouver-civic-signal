@@ -262,6 +262,7 @@ function route() {
   } else if (hash === "#ballot") {
     view = "ballot";
   }
+  document.body.dataset.view = view;
   elements.views.forEach((element) => { element.hidden = element.id !== `${view}-view`; });
   elements.navLinks.forEach((link) => link.classList.toggle("active", link.dataset.nav === (view === "member" ? "cards" : view)));
   if (view === "cards") renderCards();
@@ -560,6 +561,7 @@ function renderAlignment() {
     const phaseNumber = inStarterSet ? state.alignmentIndex + 1 : state.alignmentIndex - starterCount + 1;
     const phaseTotal = inStarterSet ? starterCount : questions.length - starterCount;
     const phaseLabel = inStarterSet ? "Starter question" : "Additional question";
+    const detailsOpen = window.matchMedia("(min-width: 641px)").matches ? " open" : "";
     const nextLabel = state.alignmentIndex === questions.length - 1
       ? "See final results"
       : state.alignmentIndex === starterCount - 1
@@ -569,14 +571,17 @@ function renderAlignment() {
       <div class="alignment-question-meta"><span>${phaseLabel} ${phaseNumber} of ${phaseTotal}</span><span>${formatDate(motion.vote_date)}</span></div>
       <span class="category-badge" style="--category-color:${safeColor(category?.color)}">${escapeHtml(category?.label || "Unclassified")}</span>
       <h2>${escapeHtml(question.prompt)}</h2>
-      <div class="alignment-context"><p>${escapeHtml(question.context)}</p></div>
-      <div class="alignment-arguments">
-        <div class="alignment-argument argument-for"><strong>Supporters’ case</strong><p>${escapeHtml(argumentsForAndAgainst.for)}</p></div>
-        <div class="alignment-argument argument-against"><strong>Opponents’ case</strong><p>${escapeHtml(argumentsForAndAgainst.against)}</p></div>
-      </div>
-      <p class="alignment-argument-note">Concise good-faith arguments, not quotations or attributed motives.</p>
-      <p class="alignment-source-title">Council record: ${escapeHtml(motion.agenda_description)}</p>
-      <div class="alignment-sources">${question.meeting_agenda_url ? `<a href="${escapeHtml(question.meeting_agenda_url)}" target="_blank" rel="noreferrer">Official agenda & reports ↗</a>` : ""}${question.research_source_url && question.research_source_url !== question.meeting_agenda_url ? `<a href="${escapeHtml(question.research_source_url)}" target="_blank" rel="noreferrer">Additional official source ↗</a>` : ""}</div>
+      <details class="alignment-details"${detailsOpen}>
+        <summary>Read the context and arguments</summary>
+        <div class="alignment-context"><p>${escapeHtml(question.context)}</p></div>
+        <div class="alignment-arguments">
+          <div class="alignment-argument argument-for"><strong>Supporters’ case</strong><p>${escapeHtml(argumentsForAndAgainst.for)}</p></div>
+          <div class="alignment-argument argument-against"><strong>Opponents’ case</strong><p>${escapeHtml(argumentsForAndAgainst.against)}</p></div>
+        </div>
+        <p class="alignment-argument-note">Concise good-faith arguments, not quotations or attributed motives.</p>
+        <p class="alignment-source-title">Council record: ${escapeHtml(motion.agenda_description)}</p>
+        <div class="alignment-sources">${question.meeting_agenda_url ? `<a href="${escapeHtml(question.meeting_agenda_url)}" target="_blank" rel="noreferrer">Official agenda & reports ↗</a>` : ""}${question.research_source_url && question.research_source_url !== question.meeting_agenda_url ? `<a href="${escapeHtml(question.research_source_url)}" target="_blank" rel="noreferrer">Additional official source ↗</a>` : ""}</div>
+      </details>
       <div class="alignment-choices" role="group" aria-label="Your vote">
         <button type="button" class="alignment-choice favour ${stance === "support" ? "selected" : ""}" data-action="set-alignment" data-motion-id="${escapeHtml(motion.motion_id)}" data-stance="support"><span>Vote</span>I’d vote in favour</button>
         <button type="button" class="alignment-choice oppose ${stance === "oppose" ? "selected" : ""}" data-action="set-alignment" data-motion-id="${escapeHtml(motion.motion_id)}" data-stance="oppose"><span>Vote</span>I’d vote in opposition</button>
