@@ -257,7 +257,7 @@ function renderChrome() {
   elements.ballotCount.textContent = String(ballotCount);
   const stages = metadata.motion_stages || {};
   elements.reportMethodNote.textContent = stages.direct_amendments
-    ? `Report cards default to divided decisions. Headline totals also omit ${formatNumber(stages.direct_amendments)} motions explicitly identified as direct amendments; both filters can be changed.`
+    ? `Report cards show divided decisions and omit ${formatNumber(stages.direct_amendments)} direct amendments by default.`
     : "Headline totals currently include every motion.";
   elements.footerSource.innerHTML = `Source file covers ${formatDate(metadata.source.date_min)} to ${formatDate(metadata.source.date_max)}.<br><a href="${escapeHtml(metadata.source.dataset_url)}" target="_blank" rel="noreferrer">City of Vancouver dataset ↗</a>`;
 }
