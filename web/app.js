@@ -231,11 +231,7 @@ function renderChrome() {
   ].map(([value, label]) => `<span class="summary-stat"><strong>${value}</strong><span>${label}</span></span>`).join("");
 
   const classification = metadata.classification;
-  const enrichment = metadata.enrichment || {};
   const notices = [];
-  if ((enrichment.matched_motions || 0) < (enrichment.total_motions || selection.motions)) {
-    notices.push(`<strong>Minutes enrichment:</strong> ${formatNumber(enrichment.matched_motions || 0)} of ${formatNumber(enrichment.total_motions || selection.motions)} motions matched to official minutes.`);
-  }
   if (classification.classified_motions < classification.total_motions) {
     notices.push(`<strong>Classification pending:</strong> ${formatNumber(classification.classified_motions)} of ${formatNumber(classification.total_motions)} motions labelled.`);
   }
@@ -262,6 +258,8 @@ function route() {
   if (hash.startsWith("#member=")) {
     memberId = decodeURIComponent(hash.slice(8));
     view = state.maps.reports.has(memberId) ? "member" : "cards";
+  } else if (hash === "#cards") {
+    view = "cards";
   } else if (hash === "#motions") {
     view = "motions";
   } else if (hash === "#alignment") {
@@ -278,7 +276,7 @@ function route() {
   if (view === "motions") renderMotions();
   if (view === "alignment") renderAlignment();
   if (view === "ballot") renderBallot();
-  window.scrollTo({ top: 0, behavior: "instant" });
+  window.scrollTo({ top: 0, behavior: "auto" });
 }
 
 function renderCards() {
@@ -484,16 +482,16 @@ function renderMotionDialog(motion) {
     ? `<div class="classification-detail"><p><strong>Plain-language summary:</strong> ${escapeHtml(motion.summary)}</p><p><strong>Policy action:</strong> ${escapeHtml(direction?.label || motion.policy_direction)} · <strong>Impact:</strong> ${escapeHtml(motion.public_impact)} · <strong>Confidence:</strong> ${Math.round(motion.confidence * 100)}%</p>${motion.needs_review ? `<p><strong>Review flag:</strong> The label may need the full motion text for confirmation.</p>` : ""}</div>`
     : `<div class="classification-detail"><p><strong>Classification pending.</strong> The original agenda title and vote record are still available below.</p></div>`;
   const sourceUrl = safeExternalUrl(motion.minutes_url);
-  const enrichmentHtml = motion.enrichment_status === "matched" && motion.motion_text
-    ? `<section class="minutes-detail"><div class="minutes-heading"><h3>What Council voted on</h3><span>${motion.enrichment_match_quality === "exact" ? `Matched by Vote No. ${escapeHtml(motion.vote_number)}` : `Matched by agenda title · minutes show Vote No. ${escapeHtml(motion.minutes_vote_marker || "unknown")}`}</span></div>${motion.moved_by || motion.seconded_by ? `<p class="minutes-people">${motion.moved_by ? `<strong>Moved by:</strong> ${escapeHtml(motion.moved_by)}` : ""}${motion.moved_by && motion.seconded_by ? " · " : ""}${motion.seconded_by ? `<strong>Seconded by:</strong> ${escapeHtml(motion.seconded_by)}` : ""}</p>` : ""}<div class="minutes-text">${escapeHtml(motion.motion_text)}</div><p class="minutes-source">${sourceUrl ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">Open official minutes${motion.minutes_pdf_page ? ` at PDF page ${escapeHtml(motion.minutes_pdf_page)}` : ""} ↗</a>` : ""}${motion.enrichment_match_quality !== "exact" ? `<span>Vote-number discrepancy: verify this inferred match.</span>` : motion.minutes_text_truncated ? `<span>Excerpt was shortened for classification; verify the source.</span>` : ""}</p></section>`
-    : `<section class="minutes-detail minutes-missing"><h3>Detailed motion text unavailable</h3><p>This vote has not yet been matched to its official meeting minutes.</p>${sourceUrl ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">Try the expected minutes URL ↗</a>` : ""}</section>`;
+  const sourceHtml = motion.enrichment_status === "matched" && motion.motion_text
+    ? `<section class="minutes-detail"><div class="minutes-heading"><h3>What Council voted on</h3><span>${motion.enrichment_match_quality === "exact" ? `Official record · Vote No. ${escapeHtml(motion.vote_number)}` : `Official record linked by agenda title · Vote No. ${escapeHtml(motion.minutes_vote_marker || "unknown")}`}</span></div>${motion.moved_by || motion.seconded_by ? `<p class="minutes-people">${motion.moved_by ? `<strong>Moved by:</strong> ${escapeHtml(motion.moved_by)}` : ""}${motion.moved_by && motion.seconded_by ? " · " : ""}${motion.seconded_by ? `<strong>Seconded by:</strong> ${escapeHtml(motion.seconded_by)}` : ""}</p>` : ""}<div class="minutes-text">${escapeHtml(motion.motion_text)}</div><p class="minutes-source">${sourceUrl ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">Open official City record${motion.minutes_pdf_page ? ` at PDF page ${escapeHtml(motion.minutes_pdf_page)}` : ""} ↗</a>` : ""}${motion.enrichment_match_quality !== "exact" ? `<span>Vote-number discrepancy: verify this inferred match.</span>` : motion.minutes_text_truncated ? `<span>Excerpt was shortened for classification; verify the source.</span>` : ""}</p></section>`
+    : `<section class="minutes-detail minutes-missing"><h3>Detailed motion text unavailable</h3><p>No detailed City source text is attached to this vote.</p>${sourceUrl ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">Try the expected City source ↗</a>` : ""}</section>`;
   elements.dialogContent.innerHTML = `<article class="dialog-body">
     <p class="dialog-kicker">${formatDate(motion.vote_date)} · ${escapeHtml(motion.meeting_type)} · Vote ${escapeHtml(motion.vote_number)}</p>
     <span class="category-badge" style="--category-color:${safeColor(category?.color)}">${escapeHtml(category?.label || "Unclassified")}</span>${motion.direct_amendment ? `<span class="stage-badge">Direct amendment</span>` : ""}
     <h2 id="dialog-title">${escapeHtml(motion.agenda_description)}</h2>
     <p class="dialog-summary">Decision: <strong>${escapeHtml(motion.decision)}</strong></p>
-    ${motion.direct_amendment ? `<p class="stage-note">Explicit agenda or minutes language identifies this as an amendment proposed during debate. It remains visible here but is excluded from headline report-card totals.</p>` : ""}
-    ${enrichmentHtml}
+    ${motion.direct_amendment ? `<p class="stage-note">Explicit source language identifies this as an amendment proposed during debate. It remains visible here but is excluded from headline report-card totals.</p>` : ""}
+    ${sourceHtml}
     ${classificationHtml}
     <div class="stance-box"><p>How would you vote?</p><div class="stance-actions">
       <button type="button" class="stance-button ${stance === "support" ? "selected" : ""}" data-action="set-stance" data-motion-id="${escapeHtml(motion.motion_id)}" data-stance="support">I’d vote in favour</button>
@@ -501,7 +499,7 @@ function renderMotionDialog(motion) {
       ${stance ? `<button type="button" class="stance-button" data-action="set-stance" data-motion-id="${escapeHtml(motion.motion_id)}" data-stance="clear">Clear choice</button>` : ""}
     </div></div>
     <section class="vote-section"><h3>Recorded votes</h3><div class="vote-groups">${[...grouped.entries()].filter(([, names]) => names.length).map(([vote, names]) => `<div class="vote-group"><div class="vote-group-heading"><span>${escapeHtml(vote)}</span><span>${names.length}</span></div><ul>${names.sort().map((name) => `<li>${escapeHtml(shortName(name))}</li>`).join("")}</ul></div>`).join("")}</div></section>
-    <p class="official-note">This interface reproduces the published open-data record. Consult the corresponding City meeting minutes for the official vote.</p>
+    <p class="official-note">This interface reproduces the published open-data record. Consult the corresponding City source for the official vote.</p>
   </article>`;
 }
 
@@ -608,9 +606,10 @@ function renderAlignment() {
 function renderAlignmentResults(featuredIds, answeredCount) {
   elements.includeFormerMembers.checked = state.includeFormerMembers;
   if (answeredCount < ALIGNMENT_UNLOCK_COUNT) {
-    elements.alignmentResultsKicker.textContent = `${ALIGNMENT_UNLOCK_COUNT} answers needed`;
-    elements.alignmentResultsNote.textContent = `Answer ${ALIGNMENT_UNLOCK_COUNT - answeredCount} more to make a comparison available.`;
-    elements.alignmentResults.innerHTML = `<div class="alignment-placeholder"><strong>${answeredCount}</strong><span>of ${ALIGNMENT_UNLOCK_COUNT} answers needed</span></div>`;
+    const answersRemaining = ALIGNMENT_UNLOCK_COUNT - answeredCount;
+    elements.alignmentResultsKicker.textContent = `${answersRemaining} answer${answersRemaining === 1 ? "" : "s"} needed`;
+    elements.alignmentResultsNote.textContent = `Answer ${answersRemaining} more to make a comparison available.`;
+    elements.alignmentResults.innerHTML = `<div class="alignment-placeholder"><strong>${answersRemaining}</strong><span>answer${answersRemaining === 1 ? "" : "s"} left to see results</span></div>`;
     return;
   }
   if (!state.alignmentResultsRevealed) {
