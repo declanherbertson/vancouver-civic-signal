@@ -6,16 +6,16 @@
     <meta name="description" content="Explore City of Vancouver council voting records by member, issue, and motion.">
     <title>Vancouver Votes — Council voting records</title>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23174c50'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Georgia' font-size='25' fill='white'%3EVV%3C/text%3E%3C/svg%3E">
-    <link rel="stylesheet" href="styles.css?v=10">
-    <script src="app.js?v=10" defer></script>
+    <link rel="stylesheet" href="styles.css?v=11">
+    <script src="app.js?v=11" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="header-inner">
-        <a class="brand" href="#cards" aria-label="Vancouver Votes home">
+        <a class="brand" href="#alignment" aria-label="Vancouver Votes home">
           <span class="brand-mark" aria-hidden="true">VV</span>
-          <span><strong>Vancouver Votes</strong><small>Public council records, made legible</small></span>
+          <span><strong>Vancouver Votes</strong><small>Vancouver City Council voting records</small></span>
         </a>
         <nav class="primary-nav" aria-label="Primary navigation">
           <a href="#cards" data-nav="cards">Report cards</a>
@@ -38,17 +38,17 @@
 
         <section id="cards-view" class="view" aria-labelledby="cards-title">
           <div class="hero shell">
-            <p class="eyebrow">Five years at City Hall</p>
-            <h1 id="cards-title">Votes tell a story.<br>Read the record.</h1>
-            <p class="hero-copy">See how each Council member voted across the issues you care about, then open any motion to inspect the underlying record.</p>
+            <p class="eyebrow">Council votes since 2021</p>
+            <h1 id="cards-title">See how each councillor voted</h1>
+            <p class="hero-copy">Browse voting records by councillor or issue, and open any motion to see the underlying City record.</p>
             <div id="dataset-summary" class="dataset-summary" aria-label="Dataset summary"></div>
           </div>
 
           <div class="shell section-block">
             <div class="section-heading">
               <div>
-                <p class="eyebrow">Council member report cards</p>
-                <h2>Choose a record to explore</h2>
+                <p class="eyebrow">Councillors</p>
+                <h2>Voting records by member</h2>
               </div>
               <p id="report-method-note">“In favour” and “in opposition” describe a vote on a specific motion—not a value judgment about the member.</p>
             </div>
@@ -81,9 +81,9 @@
 
         <section id="motions-view" class="view" hidden aria-labelledby="motions-title">
           <div class="shell page-heading">
-            <p class="eyebrow">The public record</p>
+            <p class="eyebrow">All motions</p>
             <h1 id="motions-title">Motion explorer</h1>
-            <p>Search the agenda titles, narrow the record, and open a motion to see every recorded vote.</p>
+            <p>Search agenda titles, filter the list, and open a motion to see the recorded votes.</p>
           </div>
           <div class="shell explorer-layout">
             <aside class="filter-panel" aria-label="Motion filters">
@@ -116,9 +116,8 @@
 
         <section id="alignment-view" class="view" hidden aria-labelledby="alignment-title">
           <div class="shell page-heading alignment-heading">
-            <p class="eyebrow">Twenty essential choices, twenty more to explore</p>
-            <h1 id="alignment-title">Find your closest voting records</h1>
-            <p>Start with 20 hand-picked, high-impact and divided Council votes, then continue through 20 additional motions if you want a broader comparison. Each question includes scope and tradeoffs; your answers stay in this browser.</p>
+            <h1 id="alignment-title">Find your council match</h1>
+            <p>Answer 20 questions drawn from divided Council votes, then continue with 20 more if you want. Each question explains the motion and the arguments on both sides. Your answers stay in this browser.</p>
           </div>
           <div class="shell alignment-progress-wrap">
             <div class="alignment-progress-copy"><strong id="alignment-progress-label">0 of 20 starter questions answered</strong><span id="alignment-progress-context">Results unlock after 10 answers.</span></div>
@@ -128,7 +127,7 @@
             <section id="alignment-question" aria-live="polite"></section>
             <aside class="alignment-sidebar" aria-labelledby="alignment-results-title">
               <div class="alignment-results-heading">
-                <div><p id="alignment-results-kicker" class="eyebrow">Results locked</p><h2 id="alignment-results-title">Closest records</h2></div>
+                <div><p id="alignment-results-kicker" class="eyebrow">10 answers needed</p><h2 id="alignment-results-title">Council matches</h2></div>
                 <button id="clear-alignment" class="text-button" type="button">Start over</button>
               </div>
               <p id="alignment-results-note" class="alignment-note"></p>
@@ -140,9 +139,9 @@
 
         <section id="ballot-view" class="view" hidden aria-labelledby="ballot-title">
           <div class="shell page-heading ballot-heading">
-            <p class="eyebrow">A comparison you control</p>
+            <p class="eyebrow">Saved choices</p>
             <h1 id="ballot-title">My ballot</h1>
-            <p>Mark how you would vote on motions that matter to you. Your match score compares only those choices and stays in this browser.</p>
+            <p>Review the motions you have marked and compare them with Council members' recorded votes. Your choices stay in this browser.</p>
           </div>
           <div class="shell ballot-layout">
             <section aria-labelledby="match-title">
@@ -167,7 +166,7 @@
 
     <footer class="site-footer">
       <div class="shell footer-inner">
-        <p><strong>About this project</strong><br>This is an independent presentation of City of Vancouver open data. Corresponding meeting minutes remain the official record.</p>
+        <p><strong>About this project</strong><br>A weekend project by someone who started out knowing very little about Vancouver city politics. It uses City open data; the meeting minutes remain the official record.</p>
         <p id="footer-source"></p>
       </div>
     </footer>

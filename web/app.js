@@ -249,8 +249,8 @@ function renderChrome() {
 
 function route() {
   if (!state.data) return;
-  const hash = window.location.hash || "#cards";
-  let view = "cards";
+  const hash = window.location.hash || "#alignment";
+  let view = "alignment";
   let memberId = null;
   if (hash.startsWith("#member=")) {
     memberId = decodeURIComponent(hash.slice(8));
@@ -341,7 +341,7 @@ function renderMember(memberId) {
   const opposition = counts["In Opposition"] || 0;
   const partySource = safeExternalUrl(report.party_source_url);
   elements.memberProfile.innerHTML = `<header class="profile-header">
-    <div><p class="eyebrow">${escapeHtml(report.role)} report card</p><h1 id="member-title" class="profile-name">${escapeHtml(shortName(report.name))}</h1>${partyBadge(report)}<p class="profile-meta">Record available from ${formatDate(report.first_vote_date)} to ${formatDate(report.last_vote_date)}</p><p class="party-history">${escapeHtml(report.party_history)}${partySource ? ` <a href="${escapeHtml(partySource)}" target="_blank" rel="noreferrer">Source ↗</a>` : ""}</p></div>
+    <div><p class="eyebrow">${escapeHtml(report.role)} voting record</p><h1 id="member-title" class="profile-name">${escapeHtml(shortName(report.name))}</h1>${partyBadge(report)}<p class="profile-meta">Record available from ${formatDate(report.first_vote_date)} to ${formatDate(report.last_vote_date)}</p><p class="party-history">${escapeHtml(report.party_history)}${partySource ? ` <a href="${escapeHtml(partySource)}" target="_blank" rel="noreferrer">Source ↗</a>` : ""}</p></div>
     <div class="profile-score"><div><strong>${match.positions ? formatPercent(match.score) : "—"}</strong><span>Your ballot match${match.positions ? `<br>${match.positions} comparable` : "<br>no choices yet"}</span></div></div>
   </header>
   <div class="profile-stats">
@@ -356,7 +356,7 @@ function renderMember(memberId) {
     .map((item) => ({ ...item, category: state.maps.categories.get(item.category_id) }))
     .filter((item) => item.category)
     .sort((a, b) => b.total - a.total || a.category.label.localeCompare(b.category.label));
-  elements.memberCategories.innerHTML = `<div class="breakdown-heading"><div><p class="eyebrow">Issue breakdown</p><h2>Votes by category</h2></div><p>Bars include every status on ${state.cardDecision === "divided" ? "divided, " : ""}headline-eligible motions. Direct amendments remain in the explorer but are not counted here.</p></div>
+  elements.memberCategories.innerHTML = `<div class="breakdown-heading"><div><p class="eyebrow">Categories</p><h2>Votes by category</h2></div><p>Bars include every status on ${state.cardDecision === "divided" ? "divided, " : ""}headline-eligible motions. Direct amendments remain in the explorer but are not counted here.</p></div>
     ${categoryRows.map((item) => categoryRowHtml(report, item)).join("")}`;
 }
 
@@ -534,7 +534,7 @@ function renderAlignment() {
   if (state.alignmentIndex === questions.length) {
     if (answered.length >= ALIGNMENT_UNLOCK_COUNT) state.alignmentResultsRevealed = true;
     elements.alignmentQuestion.innerHTML = `<article class="alignment-question-card alignment-complete">
-      <p class="eyebrow">Ballot complete</p>
+      <p class="eyebrow">All ${questions.length} answered</p>
       <h2>You made all ${questions.length} choices.</h2>
       <p>Your closest Council voting records are shown alongside. A match reflects these ${questions.length} motions—not every issue, value, or qualification.</p>
       <div class="alignment-card-nav"><button type="button" class="secondary-button" data-action="alignment-previous">Review answers</button><a class="primary-button" href="#ballot">See my full ballot</a></div>
@@ -545,7 +545,7 @@ function renderAlignment() {
       ? "Your starter comparison is shown alongside."
       : `Answer ${ALIGNMENT_UNLOCK_COUNT - starterAnswered} more starter question${ALIGNMENT_UNLOCK_COUNT - starterAnswered === 1 ? "" : "s"} to unlock your comparison.`;
     elements.alignmentQuestion.innerHTML = `<article class="alignment-question-card alignment-complete">
-      <p class="eyebrow">Starter set reviewed</p>
+      <p class="eyebrow">First ${starterCount} complete</p>
       <h2>${starterAnswered} of ${starterCount} starter choices saved.</h2>
       <p>${unlockMessage} You can review this set or continue through ${questions.length - starterCount} additional motions for a broader comparison.</p>
       <div class="alignment-card-nav"><button type="button" class="secondary-button" data-action="alignment-previous">← Review starter set</button><button type="button" class="primary-button" data-action="alignment-remainder">Continue with ${questions.length - starterCount} more →</button></div>
@@ -595,18 +595,18 @@ function renderAlignment() {
 function renderAlignmentResults(featuredIds, answeredCount) {
   elements.includeFormerMembers.checked = state.includeFormerMembers;
   if (answeredCount < ALIGNMENT_UNLOCK_COUNT) {
-    elements.alignmentResultsKicker.textContent = "Results locked";
+    elements.alignmentResultsKicker.textContent = `${ALIGNMENT_UNLOCK_COUNT} answers needed`;
     elements.alignmentResultsNote.textContent = `Answer ${ALIGNMENT_UNLOCK_COUNT - answeredCount} more to make a comparison available.`;
     elements.alignmentResults.innerHTML = `<div class="alignment-placeholder"><strong>${answeredCount}</strong><span>of ${ALIGNMENT_UNLOCK_COUNT} answers needed</span></div>`;
     return;
   }
   if (!state.alignmentResultsRevealed) {
-    elements.alignmentResultsKicker.textContent = "Comparison ready";
+    elements.alignmentResultsKicker.textContent = "Ready to view";
     elements.alignmentResultsNote.textContent = "Reveal it now or keep voting. It will be shown automatically when you reach the end of the 20-question starter set.";
     elements.alignmentResults.innerHTML = `<div class="alignment-reveal"><span aria-hidden="true">?</span><button type="button" class="primary-button" data-action="reveal-alignment">Show my comparison</button></div>`;
     return;
   }
-  elements.alignmentResultsKicker.textContent = "Live comparison";
+  elements.alignmentResultsKicker.textContent = "Your results";
   elements.alignmentResultsNote.textContent = `Based on your ${answeredCount} answered questions. Comparable means the member cast In Favour or In Opposition on that exact motion; abstentions are neutral and excluded.`;
   const minimumComparable = Math.max(3, Math.ceil(answeredCount * 0.35));
   const results = state.data.reports
