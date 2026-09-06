@@ -296,7 +296,13 @@ function renderCards() {
   const reports = state.data.reports
     .filter((report) => state.includeFormerCards || report.currently_sitting)
     .filter((report) => !query || `${report.name} ${report.party}`.toLocaleLowerCase().includes(query))
-    .sort((a, b) => b.last_vote_date.localeCompare(a.last_vote_date) || a.name.localeCompare(b.name));
+    .sort((a, b) => {
+      const aIsCurrentMayor = a.currently_sitting && a.role === "Mayor";
+      const bIsCurrentMayor = b.currently_sitting && b.role === "Mayor";
+      return Number(bIsCurrentMayor) - Number(aIsCurrentMayor)
+        || b.last_vote_date.localeCompare(a.last_vote_date)
+        || a.name.localeCompare(b.name);
+    });
   elements.cardIncludeFormerMembers.checked = state.includeFormerCards;
   const selectedCategory = state.cardCategory;
   const selectedDecision = state.cardDecision;
