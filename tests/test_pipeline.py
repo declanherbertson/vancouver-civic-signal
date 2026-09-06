@@ -429,6 +429,22 @@ class BuiltDataIntegrityTests(unittest.TestCase):
             self.assertIsInstance(report["currently_sitting"], bool)
         self.assertEqual(sum(report["currently_sitting"] for report in reports), 11)
 
+    def test_every_report_card_has_a_local_headshot(self):
+        reports = json.loads(
+            (PROJECT_ROOT / "web" / "data" / "report_cards.json").read_text()
+        )
+        for report in reports:
+            headshot = (
+                PROJECT_ROOT
+                / "web"
+                / "assets"
+                / "members"
+                / f"{report['member_id']}.jpg"
+            )
+            self.assertTrue(headshot.is_file(), report["member_id"])
+            self.assertGreater(headshot.stat().st_size, 1_000)
+            self.assertEqual(headshot.read_bytes()[:2], b"\xff\xd8")
+
     def test_featured_motions_meet_published_selection_criteria(self):
         featured = json.loads(
             (PROJECT_ROOT / "web" / "data" / "featured_motions.json").read_text()

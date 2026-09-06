@@ -17,6 +17,7 @@ The current build uses the supplied `council-voting-records.csv` as its voting s
 - `data/processed/metadata.json` — provenance, source SHA-256, applied window, and counts.
 - `data/classifications/motions.json` — complete, resumable structured classification output.
 - `config/member-parties.json` — sourced party and affiliation-history metadata for every member.
+- `web/assets/members/` — local member portraits. Seventeen are cropped from the City of Vancouver's [2022 election voters' guide](https://vancouver.ca/files/cov/2022-election-voters-guide-english.pdf); Lucy Maloney's portrait comes from the City's [current councillor directory](https://vancouver.ca/your-government/city-councillors.aspx). Portraits are identity aids only and do not affect any calculation.
 - `config/featured-motions.json` — a researched pool of 40 alignment questions with context and tradeoffs.
 - `web/` — static, responsive report cards, motion explorer, guided alignment ballot, and personal ballot comparison.
 

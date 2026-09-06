@@ -312,8 +312,8 @@ function memberCardHtml(report, categoryId) {
   const match = calculateMatch(report.member_id, categoryId === "all" ? null : categoryId);
   return `<button class="member-card" type="button" data-action="open-member" data-member-id="${escapeHtml(report.member_id)}">
     <span class="card-top">
-      <span><span class="eyebrow">${escapeHtml(report.role)}</span><h3>${escapeHtml(shortName(report.name))}</h3>${partyBadge(report)}<span class="member-tenure">Recorded ${formatDate(report.first_vote_date)} – ${formatDate(report.last_vote_date)}</span></span>
-      <span class="member-avatar" aria-hidden="true">${escapeHtml(initials(report.name))}</span>
+      <span class="member-card-copy"><h3>${escapeHtml(shortName(report.name))}</h3><span class="member-tags">${roleBadge(report)}${partyBadge(report)}</span><span class="member-tenure">Recorded ${formatDate(report.first_vote_date)} – ${formatDate(report.last_vote_date)}</span></span>
+      <img class="member-avatar" src="assets/members/${encodeURIComponent(report.member_id)}.jpg" alt="" width="58" height="58" loading="lazy" decoding="async">
     </span>
     <span class="card-metrics">
       <span class="card-metric"><strong>${formatNumber(scope.total)}</strong><span>${state.cardDecision === "divided" ? "Divided records" : "Headline records"}</span></span>
@@ -321,7 +321,7 @@ function memberCardHtml(report, categoryId) {
       <span class="card-metric"><strong>${match.positions ? formatPercent(match.score) : "—"}</strong><span>Your match</span></span>
     </span>
     <span class="card-split">
-      <span class="split-labels"><span>${positionTotal ? `${formatPercent(favour / positionTotal)} favour` : "No positions"}</span><span>${positionTotal ? `${formatPercent(opposition / positionTotal)} opposed` : ""}</span></span>
+      <span class="split-labels"><span>${positionTotal ? formatPercent(favour / positionTotal) : "—"}</span><span>${positionTotal ? formatPercent(opposition / positionTotal) : "—"}</span></span>
       ${stackedBar(favour, opposition, other, `${favour} in favour, ${opposition} in opposition, ${other} other records`)}
     </span>
   </button>`;
@@ -816,9 +816,8 @@ function shortName(name) { return name.replace(/^(Councillor|Mayor)\s+/, ""); }
 function partyBadge(report) {
   return `<span class="party-badge" style="--party-color:${safeColor(report.party_color)}">${escapeHtml(report.party_short || report.party)}</span>`;
 }
-function initials(name) {
-  const parts = shortName(name).split(/\s+/).filter(Boolean);
-  return `${parts[0]?.[0] || ""}${parts.at(-1)?.[0] || ""}`.toUpperCase();
+function roleBadge(report) {
+  return report.role === "Mayor" ? '<span class="role-badge">Mayor</span>' : "";
 }
 function shortVote(vote) {
   if (vote === "In Favour") return "Favour";
