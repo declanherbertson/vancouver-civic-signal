@@ -58,7 +58,8 @@ a { color: inherit; }
 .status-banner { padding: 12px 20px; background: #fff2ce; border-bottom: 1px solid #dfc883; color: #5d4a17; font-size: 13px; text-align: center; }
 .status-banner code { padding: 2px 5px; background: rgb(255 255 255 / 65%); border-radius: 4px; }
 .hero { padding: 88px 0 72px; position: relative; }
-.hero::after { content: ""; position: absolute; width: 290px; height: 290px; right: 3%; top: 54px; border: 1px solid rgb(23 76 80 / 15%); border-radius: 50%; box-shadow: inset 0 0 0 45px var(--paper), inset 0 0 0 46px rgb(23 76 80 / 10%), inset 0 0 0 92px var(--paper), inset 0 0 0 93px rgb(23 76 80 / 7%); pointer-events: none; }
+.hero::after { content: ""; position: absolute; z-index: 0; width: 290px; height: 290px; right: 3%; top: 54px; border: 1px solid rgb(23 76 80 / 15%); border-radius: 50%; box-shadow: inset 0 0 0 45px var(--paper), inset 0 0 0 46px rgb(23 76 80 / 10%), inset 0 0 0 92px var(--paper), inset 0 0 0 93px rgb(23 76 80 / 7%); pointer-events: none; }
+.hero > * { position: relative; z-index: 1; }
 .eyebrow { margin: 0 0 10px; color: var(--cedar); font-size: 12px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
 h1, h2, h3 { margin-top: 0; font-family: Georgia, "Times New Roman", serif; font-weight: 500; line-height: 1.08; }
 h1 { margin-bottom: 22px; font-size: clamp(46px, 7vw, 82px); letter-spacing: -.045em; }
