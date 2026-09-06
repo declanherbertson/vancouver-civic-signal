@@ -32,6 +32,7 @@ const state = {
   alignmentVisited: false,
   alignmentRemainderStarted: false,
   alignmentResultsRevealed: false,
+  alignmentStarted: false,
   includeFormerMembers: false,
   alignmentQuestions: null,
   cardCategory: "all",
@@ -86,7 +87,7 @@ function cacheElements() {
     "motion-list", "load-more", "clear-filters", "match-note", "match-results",
     "ballot-motions", "clear-ballot", "ballot-count", "footer-source", "motion-dialog",
     "dialog-content", "alignment-progress-label", "alignment-progress-context", "alignment-progress-bar", "report-method-note",
-    "alignment-question", "alignment-results-kicker", "alignment-results-note", "include-former-members", "alignment-results", "clear-alignment",
+    "alignment-question", "alignment-results-kicker", "alignment-results-note", "include-former-members", "alignment-results", "clear-alignment", "alignment-start",
     "ballot-include-former-members",
   ].forEach((id) => {
     elements[toCamel(id)] = document.getElementById(id);
@@ -144,6 +145,12 @@ function bindEvents() {
       renderChrome();
       renderAlignment();
     }
+  });
+  elements.alignmentStart.addEventListener("click", () => {
+    state.alignmentStarted = true;
+    document.body.dataset.alignmentStarted = "true";
+    window.scrollTo({ top: 0, behavior: "auto" });
+    renderAlignment();
   });
   elements.includeFormerMembers.addEventListener("change", () => {
     state.includeFormerMembers = elements.includeFormerMembers.checked;
@@ -263,6 +270,7 @@ function route() {
     view = "ballot";
   }
   document.body.dataset.view = view;
+  document.body.dataset.alignmentStarted = String(state.alignmentStarted);
   elements.views.forEach((element) => { element.hidden = element.id !== `${view}-view`; });
   elements.navLinks.forEach((link) => link.classList.toggle("active", link.dataset.nav === (view === "member" ? "cards" : view)));
   if (view === "cards") renderCards();
