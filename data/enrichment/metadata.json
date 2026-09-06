@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-05T19:57:09.471726+00:00",
+  "source": {
+    "publisher": "City of Vancouver",
+    "minutes_url_pattern": "https://council.vancouver.ca/YYYYMMDD/documents/PREFIXYYYYMMDDmin.pdf",
+    "match_key": "Vote No. in official meeting minutes to vote_number in the voting dataset",
+    "archive_fallback": "Internet Archive Wayback Machine"
+  },
+  "total_motions": 3058,
+  "recorded_motions": 3058,
+  "pending_motions": 0,
+  "status_counts": {
+    "matched": 2600,
+    "unmatched": 458
+  },
+  "total_meetings": 347,
+  "processed_meetings": 347,
+  "fully_matched_meetings": 256
+}

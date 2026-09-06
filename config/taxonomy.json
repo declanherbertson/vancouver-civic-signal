@@ -1,0 +1,140 @@
+{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "housing_development",
+      "label": "Housing & development",
+      "description": "Housing supply, affordability, zoning, rezonings, tenant policy, development approvals, and land use.",
+      "color": "#c96b3c"
+    },
+    {
+      "id": "transportation_streets",
+      "label": "Transportation & streets",
+      "description": "Walking, cycling, transit, roads, parking, traffic safety, freight, and street allocation.",
+      "color": "#2d7f88"
+    },
+    {
+      "id": "climate_environment",
+      "label": "Climate & environment",
+      "description": "Emissions, climate adaptation, waste, water, biodiversity, energy, and environmental protection.",
+      "color": "#4d7f52"
+    },
+    {
+      "id": "public_safety",
+      "label": "Public safety",
+      "description": "Police, fire and rescue, emergency planning, street safety, and community safety programs.",
+      "color": "#9b4d55"
+    },
+    {
+      "id": "homelessness_social_services",
+      "label": "Homelessness & social services",
+      "description": "Homelessness, poverty reduction, public health, social services, shelters, and community supports.",
+      "color": "#9b6aa7"
+    },
+    {
+      "id": "city_finance_taxes",
+      "label": "City finance & taxes",
+      "description": "Budgets, property tax, fees, borrowing, grants, procurement, and financial management.",
+      "color": "#b48a2c"
+    },
+    {
+      "id": "governance_accountability",
+      "label": "Governance & accountability",
+      "description": "Elections, transparency, ethics, oversight, intergovernmental relations, and Council governance.",
+      "color": "#466a9f"
+    },
+    {
+      "id": "economic_development",
+      "label": "Economic development",
+      "description": "Jobs, tourism, business support, major events, commercial activity, and local economic strategy.",
+      "color": "#9b7137"
+    },
+    {
+      "id": "parks_culture_public_space",
+      "label": "Parks, culture & public space",
+      "description": "Parks, recreation, libraries, arts, heritage, public art, plazas, and civic events.",
+      "color": "#518768"
+    },
+    {
+      "id": "infrastructure_core_services",
+      "label": "Infrastructure & core services",
+      "description": "Utilities, sewers, sanitation, civic facilities, asset management, and operational services.",
+      "color": "#5a7181"
+    },
+    {
+      "id": "equity_reconciliation",
+      "label": "Equity & reconciliation",
+      "description": "Indigenous relations, accessibility, human rights, anti-racism, gender equity, and inclusion.",
+      "color": "#b45783"
+    },
+    {
+      "id": "licensing_regulation",
+      "label": "Licensing & regulation",
+      "description": "Business licensing, short-term rentals, alcohol, animals, noise, and other regulatory bylaws.",
+      "color": "#7762a5"
+    },
+    {
+      "id": "procedural_administrative",
+      "label": "Procedural & administrative",
+      "description": "Appointments, meeting procedure, administrative authorizations, scheduling, and non-policy formalities.",
+      "color": "#6f736d"
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "description": "Substantive motions that do not fit another category.",
+      "color": "#82745d"
+    }
+  ],
+  "policy_directions": [
+    {
+      "id": "expand_public_program_or_service",
+      "label": "Expand a public program or service"
+    },
+    {
+      "id": "reduce_public_program_or_service",
+      "label": "Reduce a public program or service"
+    },
+    {
+      "id": "increase_spending_tax_or_fee",
+      "label": "Increase spending, a tax, or a fee"
+    },
+    {
+      "id": "reduce_spending_tax_or_fee",
+      "label": "Reduce spending, a tax, or a fee"
+    },
+    {
+      "id": "increase_rules_or_enforcement",
+      "label": "Increase rules or enforcement"
+    },
+    {
+      "id": "reduce_rules_or_enforcement",
+      "label": "Reduce rules or enforcement"
+    },
+    {
+      "id": "approve_development_or_project",
+      "label": "Approve a development or project"
+    },
+    {
+      "id": "oppose_or_restrict_development_or_project",
+      "label": "Oppose or restrict a development or project"
+    },
+    {
+      "id": "request_study_or_information",
+      "label": "Request study, consultation, or information"
+    },
+    {
+      "id": "appoint_or_elect",
+      "label": "Appoint or elect"
+    },
+    {
+      "id": "procedural_or_symbolic",
+      "label": "Procedural or symbolic"
+    },
+    {
+      "id": "unclear_or_mixed",
+      "label": "Unclear or mixed from the title"
+    }
+  ],
+  "public_impact_levels": ["low", "moderate", "high", "unclear"]
+}

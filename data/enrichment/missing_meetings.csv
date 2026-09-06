@@ -1,0 +1,92 @@
+meeting_id,vote_date,meeting_type,motion_count,unmatched_motion_count,vote_numbers,expected_minutes_url,reason
+18068,2021-11-02,Council,4,4,"7762,7764,7765,7766",https://council.vancouver.ca/20211102/documents/regu20211102min.pdf,minutes_not_available
+18075,2021-11-23,Special Council,1,1,7841,https://council.vancouver.ca/20211123/documents/spec20211123min.pdf,not_cached
+18253,2021-11-25,Public Hearing,2,1,7854,https://council.vancouver.ca/20211125/documents/phea20211125min.pdf,not_cached
+18078,2021-12-07,Council,41,1,7899,https://council.vancouver.ca/20211207/documents/regu20211207min.pdf,not_cached
+18265,2022-01-27,Policy & Strategic Priorities,3,3,"8054,8055,8056",https://council.vancouver.ca/20220127/documents/pspc20220127min.pdf,minutes_not_available
+18174,2022-02-01,Special Council,1,1,8066,https://council.vancouver.ca/20220201/documents/spec20220201min.pdf,minutes_not_available
+18176,2022-02-02,Special Council,1,1,8068,https://council.vancouver.ca/20220202/documents/spec20220202min.pdf,minutes_not_available
+18179,2022-02-09,City Finance & Services,11,11,"8099,8100,8101,8102,8103,8104,8105,8106,8107,8108,8110",https://council.vancouver.ca/20220209/documents/cfsc20220209min.pdf,minutes_not_available
+18185,2022-03-08,Special Council,1,1,8176,https://council.vancouver.ca/20220308/documents/spec20220308min.pdf,minutes_not_available
+18186,2022-03-09,Special Council,1,1,8177,https://council.vancouver.ca/20220309/documents/spec20220309min.pdf,minutes_not_available
+18191,2022-04-13,Policy & Strategic Priorities,16,1,8277,https://council.vancouver.ca/20220413/documents/pspc20220413min.pdf,not_cached
+18194,2022-04-20,Special Council,1,1,8291,https://council.vancouver.ca/20220420/documents/spec20220420min.pdf,minutes_not_available
+18297,2022-04-21,Public Hearing,1,1,8293,https://council.vancouver.ca/20220421/documents/phea20220421min.pdf,minutes_not_available
+18294,2022-04-22,Auditor General Committee,2,2,"8295,8296",https://council.vancouver.ca/20220422/documents/agc20220422min.pdf,minutes_not_available
+18200,2022-05-19,Public Hearing,5,5,"8397,8398,8399,8400,8401",https://council.vancouver.ca/20220519/documents/phea20220519min.pdf,minutes_not_available
+18202,2022-05-25,Special Council,1,1,8406,https://council.vancouver.ca/20220525/documents/spec20220525min.pdf,minutes_not_available
+18203,2022-06-07,Council,30,1,8433,https://council.vancouver.ca/20220607/documents/regu20220607min.pdf,not_cached
+18206,2022-06-08,City Finance & Services,25,25,"8452,8453,8454,8455,8456,8457,8458,8459,8460,8461,8462,8463,8465,8466,8468,8470,8471,8472,8473,8474,8658,8659,8660,8661,8662",https://council.vancouver.ca/20220608/documents/cfsc20220608min.pdf,minutes_not_available
+18309,2022-06-15,City Finance & Services,5,5,"8506,8507,8509,8510,8511",https://council.vancouver.ca/20220615/documents/cfsc20220615min.pdf,minutes_not_available
+18208,2022-06-15,Special Council,1,1,8512,https://council.vancouver.ca/20220615/documents/spec20220615min.pdf,minutes_not_available
+18310,2022-06-16,City Finance & Services,10,10,"8513,8514,8515,8516,8517,8518,8519,8520,8521,8522",https://council.vancouver.ca/20220616/documents/cfsc20220616min.pdf,minutes_not_available
+18215,2022-07-06,City Finance & Services,1,1,8657,https://council.vancouver.ca/20220706/documents/cfsc20220706min.pdf,minutes_not_available
+18220,2022-07-20,Policy & Strategic Priorities,27,5,"8706,8709,8720,8726,8728",https://council.vancouver.ca/20220720/documents/pspc20220720min.pdf,not_cached
+18319,2022-07-22,City Finance & Services,20,20,"8741,8742,8743,8744,8745,8746,8747,8748,8749,8750,8751,8752,8753,8754,8755,8756,8758,8759,8760,8761",https://council.vancouver.ca/20220722/documents/cfsc20220722min.pdf,minutes_not_available
+18323,2022-07-26,Public Hearing,14,10,"8767,8768,8769,8770,8771,8772,8773,8774,8775,8776",https://council.vancouver.ca/20220726/documents/phea20220726min.pdf,vote_number_not_found_in_matched_minutes
+18315,2022-09-27,Council,6,6,"8782,8783,8784,8785,8786,8787",https://council.vancouver.ca/20220927/documents/regu20220927min.pdf,minutes_not_available
+18226,2022-11-07,Council,6,6,"8839,8840,8841,8842,8843,8844",https://council.vancouver.ca/20221107/documents/regu20221107min.pdf,minutes_not_available
+18229,2022-11-16,Policy & Strategic Priorities,12,12,"8860,8861,8862,8863,8864,8865,8866,8867,8868,8869,8870,8871",https://council.vancouver.ca/20221116/documents/pspc20221116min.pdf,minutes_not_available
+18432,2022-11-22,Policy & Strategic Priorities,14,14,"8874,8875,8876,8877,8878,8879,8880,8881,8882,8883,8884,8885,8886,8887",https://council.vancouver.ca/20221122/documents/pspc20221122min.pdf,minutes_not_available
+18230,2022-11-22,Special Council,1,1,8873,https://council.vancouver.ca/20221122/documents/spec20221122min.pdf,minutes_not_available
+18231,2022-11-23,Special Council,1,1,8888,https://council.vancouver.ca/20221123/documents/spec20221123min.pdf,minutes_not_available
+18443,2023-02-02,Auditor General Committee,5,5,"8990,8992,8993,8994,8996",https://council.vancouver.ca/20230202/documents/agc20230202min.pdf,minutes_not_available
+18347,2023-02-14,Council,16,16,"9006,9007,9008,9009,9010,9011,9012,9013,9015,9016,9017,9018,9019,9020,9024,9025",https://council.vancouver.ca/20230214/documents/regu20230214min.pdf,minutes_not_available
+18348,2023-02-15,Council,13,13,"9032,9033,9034,9036,9037,9038,9039,9040,9041,9042,9043,9044,9045",https://council.vancouver.ca/20230215/documents/regu20230215min.pdf,minutes_not_available
+18454,2023-03-01,Special Council,1,1,9066,https://council.vancouver.ca/20230301/documents/spec20230301min.pdf,minutes_not_available
+18444,2023-03-02,Auditor General Committee,2,2,"9067,9068",https://council.vancouver.ca/20230302/documents/agc20230302min.pdf,minutes_not_available
+18357,2023-03-09,Public Hearing,5,5,"9098,9099,9100,9101,9102",https://council.vancouver.ca/20230309/documents/phea20230309min.pdf,minutes_not_available
+18358,2023-03-28,Council,16,16,"9105,9106,9107,9108,9111,9112,9113,9114,9115,9116,9117,9118,9119,9120,9121,9122",https://council.vancouver.ca/20230328/documents/regu20230328min.pdf,minutes_not_available
+18460,2023-03-30,Policy & Strategic Priorities,8,2,"9142,9145",https://council.vancouver.ca/20230330/documents/pspc20230330min.pdf,vote_number_not_found_in_matched_minutes
+18363,2023-04-12,Council,16,16,"9162,9163,9164,9165,9166,9168,9169,9170,9171,9172,9173,9174,9175,9176,9177,9178",https://council.vancouver.ca/20230412/documents/regu20230412min.pdf,minutes_not_available
+18364,2023-04-13,Public Hearing,2,2,"9180,9181",https://council.vancouver.ca/20230413/documents/phea20230413min.pdf,minutes_not_available
+18365,2023-04-25,Council,13,13,"9182,9183,9184,9185,9186,9187,9188,9189,9192,9193,9194,9195,9196",https://council.vancouver.ca/20230425/documents/regu20230425min.pdf,minutes_not_available
+18468,2023-04-26,Council,3,3,"9205,9206,9207",https://council.vancouver.ca/20230426/documents/regu20230426min.pdf,minutes_not_available
+18367,2023-04-26,Policy & Strategic Priorities,14,3,"9202,9203,9214",https://council.vancouver.ca/20230426/documents/pspc20230426min.pdf,not_cached
+18445,2023-05-15,Auditor General Committee,1,1,9277,https://council.vancouver.ca/20230515/documents/agc20230515min.pdf,minutes_not_available
+18375,2023-05-30,Council,16,16,"9278,9279,9280,9281,9282,9283,9284,9285,9286,9287,9288,9289,9290,9291,9292,9296",https://council.vancouver.ca/20230530/documents/regu20230530min.pdf,"not_cached,vote_number_not_found_in_matched_minutes"
+18376,2023-05-31,Policy & Strategic Priorities,9,1,9304,https://council.vancouver.ca/20230531/documents/pspc20230531min.pdf,not_cached
+18446,2023-06-01,Auditor General Committee,1,1,9306,https://council.vancouver.ca/20230601/documents/agc20230601min.pdf,minutes_not_available
+18381,2023-06-14,City Finance & Services,9,1,9339,https://council.vancouver.ca/20230614/documents/cfsc20230614min.pdf,not_cached
+18429,2023-06-15,Public Hearing,4,4,"9340,9341,9342,9343",https://council.vancouver.ca/20230615/documents/phea20230615min.pdf,minutes_not_available
+18385,2023-06-28,Policy & Strategic Priorities,24,24,"9357,9358,9359,9360,9361,9362,9363,9364,9365,9368,9369,9370,9371,9372,9373,9374,9375,9376,9377,9379,9380,9381,9382,9383",https://council.vancouver.ca/20230628/documents/pspc20230628min.pdf,"not_cached,vote_number_not_found_in_matched_minutes"
+18394,2023-07-25,Council,25,25,"9421,9422,9423,9424,9425,9426,9427,9428,9429,9430,9432,9433,9434,9435,9436,9437,9438,9439,9440,9441,9442,9443,9444,9445,9446",https://council.vancouver.ca/20230725/documents/regu20230725min.pdf,minutes_not_available
+18472,2023-09-28,Public Hearing,3,3,"9500,9501,9502",https://council.vancouver.ca/20230928/documents/phea20230928min.pdf,minutes_not_available
+18405,2023-10-19,Public Hearing,2,2,"9573,9574",https://council.vancouver.ca/20231019/documents/phea20231019min.pdf,minutes_not_available
+18411,2023-11-01,Council,10,10,"9604,9605,9606,9607,9608,9609,9610,9611,9612,9613",https://council.vancouver.ca/20231101/documents/regu20231101min.pdf,"not_cached,vote_number_not_found_in_matched_minutes"
+18594,2024-01-30,Public Hearing,2,2,"9778,9779",https://council.vancouver.ca/20240130/documents/phea20240130min.pdf,minutes_not_available
+18483,2024-01-31,Special Council,1,1,9780,https://council.vancouver.ca/20240131/documents/spec20240131min.pdf,minutes_not_available
+18484,2024-02-06,Council,8,8,"9781,9782,9783,9785,9786,9787,9788,9789",https://council.vancouver.ca/20240206/documents/regu20240206min.pdf,"not_cached,vote_number_not_found_in_matched_minutes"
+18583,2024-02-22,Auditor General Committee,2,2,"9798,9799",https://council.vancouver.ca/20240222/documents/agc20240222min.pdf,minutes_not_available
+18491,2024-03-05,Special Council,1,1,9834,https://council.vancouver.ca/20240305/documents/spec20240305min.pdf,minutes_not_available
+18499,2024-04-23,Council,12,12,"9912,9913,9914,9915,9917,9918,9919,9920,9921,9922,9923,9924",https://council.vancouver.ca/20240423/documents/regu20240423min.pdf,minutes_not_available
+18600,2024-05-14,Special Council,1,1,9984,https://council.vancouver.ca/20240514/documents/spec20240514min.pdf,minutes_not_available
+18511,2024-06-25,Council,13,13,"10080,10081,10082,10083,10084,10085,10086,10087,10088,10089,10090,10091,10093",https://council.vancouver.ca/20240625/documents/regu20240625min.pdf,"not_cached,vote_number_not_found_in_matched_minutes"
+18525,2024-10-09,City Finance & Services,12,12,"10240,10241,10242,10243,10244,10245,10246,10248,10249,10250,10251,10252",https://council.vancouver.ca/20241009/documents/cfsc20241009min.pdf,minutes_not_available
+18614,2024-10-10,Special Council,1,1,10254,https://council.vancouver.ca/20241010/documents/spec20241010min.pdf,minutes_not_available
+18703,2024-11-14,Public Hearing,2,1,10329,https://council.vancouver.ca/20241114/documents/phea20241114min.pdf,vote_number_not_found_in_matched_minutes
+18533,2024-11-19,Special Council,2,2,"10330,10331",https://council.vancouver.ca/20241119/documents/spec20241119min.pdf,minutes_not_available
+18627,2025-01-28,Special Council,2,1,10489,https://council.vancouver.ca/20250128/documents/spec20250128min.pdf,vote_number_not_found_in_matched_minutes
+18628,2025-01-29,Special Council,1,1,10491,https://council.vancouver.ca/20250129/documents/spec20250129min.pdf,minutes_not_available
+18638,2025-03-05,Special Council,1,1,10557,https://council.vancouver.ca/20250305/documents/spec20250305min.pdf,minutes_not_available
+18749,2025-06-10,Public Hearing,2,2,"10765,10766",https://council.vancouver.ca/20250610/documents/phea20250610min.pdf,minutes_not_available
+18660,2025-06-17,Council,9,1,10773,https://council.vancouver.ca/20250617/documents/regu20250617min.pdf,vote_number_not_found_in_matched_minutes
+18662,2025-06-18,City Finance & Services,19,3,"10799,10800,10801",https://council.vancouver.ca/20250618/documents/cfsc20250618min.pdf,not_cached
+18755,2025-06-25,Public Hearing,2,2,"10812,10813",https://council.vancouver.ca/20250625/documents/phea20250625min.pdf,minutes_not_available
+18667,2025-07-09,Policy & Strategic Priorities,18,1,10849,https://council.vancouver.ca/20250709/documents/pspc20250709min.pdf,not_cached
+18668,2025-07-15,Special Council,1,1,10866,https://council.vancouver.ca/20250715/documents/spec20250715min.pdf,minutes_not_available
+18669,2025-07-16,Special Council,1,1,10867,https://council.vancouver.ca/20250716/documents/spec20250716min.pdf,minutes_not_available
+18676,2025-10-07,Council,7,1,10991,https://council.vancouver.ca/20251007/documents/regu20251007min.pdf,not_cached
+18678,2025-10-14,Special Council,1,1,11025,https://council.vancouver.ca/20251014/documents/spec20251014min.pdf,minutes_not_available
+18687,2025-11-18,Special Council,2,2,"11140,11141",https://council.vancouver.ca/20251118/documents/spec20251118min.pdf,minutes_not_available
+18860,2025-11-18,Special Council,1,1,11139,https://council.vancouver.ca/20251118/documents/spec20251118min.pdf,minutes_not_available
+18783,2026-01-20,Council,22,22,"11278,11279,11280,11282,11284,11286,11287,11288,11289,11290,11291,11292,11293,11294,11295,11296,11297,11298,11299,11300,11301,11302",https://council.vancouver.ca/20260120/documents/regu20260120min.pdf,minutes_not_available
+18880,2026-01-27,Public Hearing,2,2,"11321,11322",https://council.vancouver.ca/20260127/documents/phea20260127min.pdf,minutes_not_available
+18881,2026-01-27,Public Hearing,1,1,11323,https://council.vancouver.ca/20260127/documents/phea20260127min.pdf,minutes_not_available
+18874,2026-02-10,Public Hearing,7,3,"11381,11382,11383",https://council.vancouver.ca/20260210/documents/phea20260210min.pdf,vote_number_not_found_in_matched_minutes
+18819,2026-02-25,Policy & Strategic Priorities,9,9,"11415,11416,11417,11418,11419,11420,11421,11422,11423",https://council.vancouver.ca/20260225/documents/pspc20260225min.pdf,minutes_not_available
+18886,2026-03-04,Public Hearing,2,2,"11433,11434",https://council.vancouver.ca/20260304/documents/phea20260304min.pdf,minutes_not_available
+18804,2026-03-05,Public Hearing,4,1,11435,https://council.vancouver.ca/20260305/documents/phea20260305min.pdf,vote_number_not_found_in_matched_minutes
+18893,2026-03-11,Public Hearing,2,2,"11474,11475",https://council.vancouver.ca/20260311/documents/phea20260311min.pdf,minutes_not_available
+18890,2026-03-12,Public Hearing,1,1,11476,https://council.vancouver.ca/20260312/documents/phea20260312min.pdf,minutes_not_available
+18838,2026-04-21,Special Council,1,1,11541,https://council.vancouver.ca/20260421/documents/spec20260421min.pdf,minutes_not_available

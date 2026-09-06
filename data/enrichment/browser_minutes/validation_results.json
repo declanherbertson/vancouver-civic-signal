@@ -1,0 +1,5998 @@
+[
+  {
+    "checked_at": "2026-09-05T19:55:34.329263+00:00",
+    "meeting_id": "18179",
+    "vote_date": "2022-02-09",
+    "meeting_type": "City Finance & Services",
+    "motion_count": 11,
+    "unmatched_motion_count": 11,
+    "vote_numbers": [
+      "8099",
+      "8100",
+      "8101",
+      "8102",
+      "8103",
+      "8104",
+      "8105",
+      "8106",
+      "8107",
+      "8108",
+      "8110"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220209/documents/cfsc20220209min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/cfsc20220209min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 11,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8099",
+        "8100",
+        "8101",
+        "8102",
+        "8103",
+        "8104",
+        "8105",
+        "8106",
+        "8107",
+        "8108",
+        "8110"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220209/documents/cfsc20220209min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:34.730398+00:00",
+    "meeting_id": "18310",
+    "vote_date": "2022-06-16",
+    "meeting_type": "City Finance & Services",
+    "motion_count": 10,
+    "unmatched_motion_count": 10,
+    "vote_numbers": [
+      "8513",
+      "8514",
+      "8515",
+      "8516",
+      "8517",
+      "8518",
+      "8519",
+      "8520",
+      "8521",
+      "8522"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220616/documents/cfsc20220616min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/cfsc20220616min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 10,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8513",
+        "8514",
+        "8515",
+        "8516",
+        "8517",
+        "8518",
+        "8519",
+        "8520",
+        "8521",
+        "8522"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220616/documents/cfsc20220616min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:35.159818+00:00",
+    "meeting_id": "18323",
+    "vote_date": "2022-07-26",
+    "meeting_type": "Public Hearing",
+    "motion_count": 14,
+    "unmatched_motion_count": 10,
+    "vote_numbers": [
+      "8767",
+      "8768",
+      "8769",
+      "8770",
+      "8771",
+      "8772",
+      "8773",
+      "8774",
+      "8775",
+      "8776"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220726/documents/phea20220726min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/phea20220726min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 10,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8767",
+        "8768",
+        "8769",
+        "8770",
+        "8771",
+        "8772",
+        "8773",
+        "8774",
+        "8775",
+        "8776"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220726/documents/phea20220726min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:36.221472+00:00",
+    "meeting_id": "18343",
+    "vote_date": "2023-01-31",
+    "meeting_type": "Council",
+    "motion_count": 10,
+    "unmatched_motion_count": 10,
+    "vote_numbers": [
+      "8969",
+      "8970",
+      "8971",
+      "8972",
+      "8973",
+      "8974",
+      "8978",
+      "8979",
+      "8980",
+      "8981"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230131/documents/regu20230131min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/regu20230131min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20230131/documents/regu20230131min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 403728,
+      "page_count": 30,
+      "text_characters": 71227,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 10,
+      "matched_vote_count": 10,
+      "matched_vote_numbers": [
+        "8969",
+        "8970",
+        "8971",
+        "8972",
+        "8973",
+        "8974",
+        "8978",
+        "8979",
+        "8980",
+        "8981"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230131/documents/regu20230131min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 10
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:36.624348+00:00",
+    "meeting_id": "18411",
+    "vote_date": "2023-11-01",
+    "meeting_type": "Council",
+    "motion_count": 10,
+    "unmatched_motion_count": 10,
+    "vote_numbers": [
+      "9604",
+      "9605",
+      "9606",
+      "9607",
+      "9608",
+      "9609",
+      "9610",
+      "9611",
+      "9612",
+      "9613"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20231101/documents/regu20231101min.pdf",
+    "reason": "not_cached,vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/regu20231101min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 10,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9604",
+        "9605",
+        "9606",
+        "9607",
+        "9608",
+        "9609",
+        "9610",
+        "9611",
+        "9612",
+        "9613"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20231101/documents/regu20231101min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:37.273325+00:00",
+    "meeting_id": "18391",
+    "vote_date": "2023-07-12",
+    "meeting_type": "City Finance & Services",
+    "motion_count": 9,
+    "unmatched_motion_count": 9,
+    "vote_numbers": [
+      "9405",
+      "9406",
+      "9407",
+      "9408",
+      "9411",
+      "9412",
+      "9413",
+      "9414",
+      "9415"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230712/documents/cfsc20230712min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/cfsc20230712min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20230712/documents/cfsc20230712min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 258298,
+      "page_count": 12,
+      "text_characters": 21777,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 9,
+      "matched_vote_count": 9,
+      "matched_vote_numbers": [
+        "9405",
+        "9406",
+        "9407",
+        "9408",
+        "9411",
+        "9412",
+        "9413",
+        "9414",
+        "9415"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230712/documents/cfsc20230712min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 9
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:38.025357+00:00",
+    "meeting_id": "18386",
+    "vote_date": "2023-09-13",
+    "meeting_type": "City Finance & Services",
+    "motion_count": 9,
+    "unmatched_motion_count": 9,
+    "vote_numbers": [
+      "9485",
+      "9486",
+      "9487",
+      "9488",
+      "9489",
+      "9490",
+      "9491",
+      "9492",
+      "9493"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230913/documents/cfsc20230913min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/cfsc20230913min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20230913/documents/cfsc20230913min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 264618,
+      "page_count": 17,
+      "text_characters": 34358,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 9,
+      "matched_vote_count": 9,
+      "matched_vote_numbers": [
+        "9485",
+        "9486",
+        "9487",
+        "9488",
+        "9489",
+        "9490",
+        "9491",
+        "9492",
+        "9493"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230913/documents/cfsc20230913min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 9
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:38.763382+00:00",
+    "meeting_id": "18660",
+    "vote_date": "2025-06-17",
+    "meeting_type": "Council",
+    "motion_count": 9,
+    "unmatched_motion_count": 9,
+    "vote_numbers": [
+      "10768",
+      "10769",
+      "10770",
+      "10771",
+      "10772",
+      "10773",
+      "10774",
+      "10775",
+      "10776"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250617/documents/regu20250617min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/regu20250617min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20250617/documents/regu20250617min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 140908,
+      "page_count": 15,
+      "text_characters": 30927,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 9,
+      "matched_vote_count": 8,
+      "matched_vote_numbers": [
+        "10768",
+        "10769",
+        "10770",
+        "10771",
+        "10772",
+        "10774",
+        "10775",
+        "10776"
+      ],
+      "missing_vote_numbers": [
+        "10773"
+      ],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250617/documents/regu20250617min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 8
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:39.167922+00:00",
+    "meeting_id": "18819",
+    "vote_date": "2026-02-25",
+    "meeting_type": "Policy & Strategic Priorities",
+    "motion_count": 9,
+    "unmatched_motion_count": 9,
+    "vote_numbers": [
+      "11415",
+      "11416",
+      "11417",
+      "11418",
+      "11419",
+      "11420",
+      "11421",
+      "11422",
+      "11423"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260225/documents/pspc20260225min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/pspc20260225min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 9,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "11415",
+        "11416",
+        "11417",
+        "11418",
+        "11419",
+        "11420",
+        "11421",
+        "11422",
+        "11423"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260225/documents/pspc20260225min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:40.315771+00:00",
+    "meeting_id": "18170",
+    "vote_date": "2022-01-25",
+    "meeting_type": "Council",
+    "motion_count": 8,
+    "unmatched_motion_count": 8,
+    "vote_numbers": [
+      "7983",
+      "7984",
+      "7985",
+      "7986",
+      "7995",
+      "7996",
+      "7997",
+      "7999"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220125/documents/regu20220125min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/regu20220125min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20220125/documents/regu20220125min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 264029,
+      "page_count": 48,
+      "text_characters": 106935,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 8,
+      "matched_vote_count": 8,
+      "matched_vote_numbers": [
+        "7983",
+        "7984",
+        "7985",
+        "7986",
+        "7995",
+        "7996",
+        "7997",
+        "7999"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220125/documents/regu20220125min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 8
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:41.063636+00:00",
+    "meeting_id": "18340",
+    "vote_date": "2023-01-18",
+    "meeting_type": "Policy & Strategic Priorities",
+    "motion_count": 8,
+    "unmatched_motion_count": 8,
+    "vote_numbers": [
+      "8955",
+      "8956",
+      "8957",
+      "8958",
+      "8959",
+      "8960",
+      "8961",
+      "8962"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230118/documents/pspc20230118min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/pspc20230118min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20230118/documents/pspc20230118min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 279108,
+      "page_count": 16,
+      "text_characters": 35390,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 8,
+      "matched_vote_count": 8,
+      "matched_vote_numbers": [
+        "8955",
+        "8956",
+        "8957",
+        "8958",
+        "8959",
+        "8960",
+        "8961",
+        "8962"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230118/documents/pspc20230118min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 8
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:41.463385+00:00",
+    "meeting_id": "18484",
+    "vote_date": "2024-02-06",
+    "meeting_type": "Council",
+    "motion_count": 8,
+    "unmatched_motion_count": 8,
+    "vote_numbers": [
+      "9781",
+      "9782",
+      "9783",
+      "9785",
+      "9786",
+      "9787",
+      "9788",
+      "9789"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240206/documents/regu20240206min.pdf",
+    "reason": "not_cached,vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/regu20240206min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 8,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9781",
+        "9782",
+        "9783",
+        "9785",
+        "9786",
+        "9787",
+        "9788",
+        "9789"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240206/documents/regu20240206min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:42.062886+00:00",
+    "meeting_id": "18826",
+    "vote_date": "2026-03-11",
+    "meeting_type": "City Finance & Services",
+    "motion_count": 8,
+    "unmatched_motion_count": 8,
+    "vote_numbers": [
+      "11465",
+      "11466",
+      "11467",
+      "11468",
+      "11469",
+      "11470",
+      "11471",
+      "11473"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260311/documents/cfsc20260311min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/cfsc20260311min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260311/documents/cfsc20260311min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 95405,
+      "page_count": 17,
+      "text_characters": 34123,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 8,
+      "matched_vote_count": 8,
+      "matched_vote_numbers": [
+        "11465",
+        "11466",
+        "11467",
+        "11468",
+        "11469",
+        "11470",
+        "11471",
+        "11473"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260311/documents/cfsc20260311min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 8
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:42.876573+00:00",
+    "meeting_id": "18344",
+    "vote_date": "2023-02-01",
+    "meeting_type": "City Finance & Services",
+    "motion_count": 7,
+    "unmatched_motion_count": 7,
+    "vote_numbers": [
+      "8982",
+      "8983",
+      "8984",
+      "8985",
+      "8986",
+      "8988",
+      "8989"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230201/documents/cfsc20230201min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/cfsc20230201min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20230201/documents/cfsc20230201min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 172030,
+      "page_count": 18,
+      "text_characters": 43286,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 7,
+      "matched_vote_count": 7,
+      "matched_vote_numbers": [
+        "8982",
+        "8983",
+        "8984",
+        "8985",
+        "8986",
+        "8988",
+        "8989"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230201/documents/cfsc20230201min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 7
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:43.644890+00:00",
+    "meeting_id": "18818",
+    "vote_date": "2026-01-21",
+    "meeting_type": "Policy & Strategic Priorities",
+    "motion_count": 7,
+    "unmatched_motion_count": 7,
+    "vote_numbers": [
+      "11305",
+      "11306",
+      "11308",
+      "11309",
+      "11310",
+      "11311",
+      "11312"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260121/documents/pspc20260121min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/pspc20260121min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260121/documents/pspc20260121min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 422670,
+      "page_count": 16,
+      "text_characters": 35908,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 7,
+      "matched_vote_count": 7,
+      "matched_vote_numbers": [
+        "11305",
+        "11306",
+        "11308",
+        "11309",
+        "11310",
+        "11311",
+        "11312"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260121/documents/pspc20260121min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 7
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:44.374168+00:00",
+    "meeting_id": "18874",
+    "vote_date": "2026-02-10",
+    "meeting_type": "Public Hearing",
+    "motion_count": 7,
+    "unmatched_motion_count": 7,
+    "vote_numbers": [
+      "11381",
+      "11382",
+      "11383",
+      "11384",
+      "11385",
+      "11386",
+      "11387"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260210/documents/phea20260210min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260210min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260210/documents/phea20260210min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 112190,
+      "page_count": 14,
+      "text_characters": 27548,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 7,
+      "matched_vote_count": 4,
+      "matched_vote_numbers": [
+        "11384",
+        "11385",
+        "11386",
+        "11387"
+      ],
+      "missing_vote_numbers": [
+        "11381",
+        "11382",
+        "11383"
+      ],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260210/documents/phea20260210min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 4
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:45.068869+00:00",
+    "meeting_id": "18785",
+    "vote_date": "2026-02-24",
+    "meeting_type": "Council",
+    "motion_count": 7,
+    "unmatched_motion_count": 7,
+    "vote_numbers": [
+      "11404",
+      "11405",
+      "11406",
+      "11407",
+      "11408",
+      "11410",
+      "11411"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260224/documents/regu20260224min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/regu20260224min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260224/documents/regu20260224min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 257153,
+      "page_count": 13,
+      "text_characters": 25977,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 7,
+      "matched_vote_count": 7,
+      "matched_vote_numbers": [
+        "11404",
+        "11405",
+        "11406",
+        "11407",
+        "11408",
+        "11410",
+        "11411"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260224/documents/regu20260224min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 7
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:45.475892+00:00",
+    "meeting_id": "18315",
+    "vote_date": "2022-09-27",
+    "meeting_type": "Council",
+    "motion_count": 6,
+    "unmatched_motion_count": 6,
+    "vote_numbers": [
+      "8782",
+      "8783",
+      "8784",
+      "8785",
+      "8786",
+      "8787"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220927/documents/regu20220927min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/regu20220927min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 6,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8782",
+        "8783",
+        "8784",
+        "8785",
+        "8786",
+        "8787"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220927/documents/regu20220927min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:45.875436+00:00",
+    "meeting_id": "18226",
+    "vote_date": "2022-11-07",
+    "meeting_type": "Council",
+    "motion_count": 6,
+    "unmatched_motion_count": 6,
+    "vote_numbers": [
+      "8839",
+      "8840",
+      "8841",
+      "8842",
+      "8843",
+      "8844"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20221107/documents/regu20221107min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/regu20221107min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 6,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8839",
+        "8840",
+        "8841",
+        "8842",
+        "8843",
+        "8844"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20221107/documents/regu20221107min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:46.626388+00:00",
+    "meeting_id": "18349",
+    "vote_date": "2023-02-14",
+    "meeting_type": "Public Hearing",
+    "motion_count": 6,
+    "unmatched_motion_count": 6,
+    "vote_numbers": [
+      "9026",
+      "9027",
+      "9028",
+      "9029",
+      "9030",
+      "9031"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230214/documents/phea20230214min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20230214min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20230214/documents/phea20230214min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 224026,
+      "page_count": 15,
+      "text_characters": 31182,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 6,
+      "matched_vote_count": 6,
+      "matched_vote_numbers": [
+        "9026",
+        "9027",
+        "9028",
+        "9029",
+        "9030",
+        "9031"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230214/documents/phea20230214min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 6
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:47.359386+00:00",
+    "meeting_id": "18563",
+    "vote_date": "2024-07-25",
+    "meeting_type": "Public Hearing",
+    "motion_count": 6,
+    "unmatched_motion_count": 6,
+    "vote_numbers": [
+      "10184",
+      "10185",
+      "10186",
+      "10187",
+      "10188",
+      "10189"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240725/documents/phea20240725min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20240725min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20240725/documents/phea20240725min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 227556,
+      "page_count": 15,
+      "text_characters": 30085,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 6,
+      "matched_vote_count": 6,
+      "matched_vote_numbers": [
+        "10184",
+        "10185",
+        "10186",
+        "10187",
+        "10188",
+        "10189"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240725/documents/phea20240725min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 6
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:48.026488+00:00",
+    "meeting_id": "18625",
+    "vote_date": "2025-01-22",
+    "meeting_type": "Policy & Strategic Priorities",
+    "motion_count": 6,
+    "unmatched_motion_count": 6,
+    "vote_numbers": [
+      "10479",
+      "10480",
+      "10481",
+      "10482",
+      "10483",
+      "10484"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250122/documents/pspc20250122min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/pspc20250122min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20250122/documents/pspc20250122min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 96972,
+      "page_count": 9,
+      "text_characters": 17330,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 6,
+      "matched_vote_count": 6,
+      "matched_vote_numbers": [
+        "10479",
+        "10480",
+        "10481",
+        "10482",
+        "10483",
+        "10484"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250122/documents/pspc20250122min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 6
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:48.433109+00:00",
+    "meeting_id": "18200",
+    "vote_date": "2022-05-19",
+    "meeting_type": "Public Hearing",
+    "motion_count": 5,
+    "unmatched_motion_count": 5,
+    "vote_numbers": [
+      "8397",
+      "8398",
+      "8399",
+      "8400",
+      "8401"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220519/documents/phea20220519min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20220519min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 5,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8397",
+        "8398",
+        "8399",
+        "8400",
+        "8401"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220519/documents/phea20220519min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:49.165554+00:00",
+    "meeting_id": "18299",
+    "vote_date": "2022-06-14",
+    "meeting_type": "Public Hearing",
+    "motion_count": 5,
+    "unmatched_motion_count": 5,
+    "vote_numbers": [
+      "8498",
+      "8499",
+      "8500",
+      "8501",
+      "8503"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220614/documents/phea20220614min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20220614min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20220614/documents/phea20220614min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 212786,
+      "page_count": 13,
+      "text_characters": 25060,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 5,
+      "matched_vote_count": 5,
+      "matched_vote_numbers": [
+        "8498",
+        "8499",
+        "8500",
+        "8501",
+        "8503"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220614/documents/phea20220614min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 5
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:49.567674+00:00",
+    "meeting_id": "18309",
+    "vote_date": "2022-06-15",
+    "meeting_type": "City Finance & Services",
+    "motion_count": 5,
+    "unmatched_motion_count": 5,
+    "vote_numbers": [
+      "8506",
+      "8507",
+      "8509",
+      "8510",
+      "8511"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220615/documents/cfsc20220615min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/cfsc20220615min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 5,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8506",
+        "8507",
+        "8509",
+        "8510",
+        "8511"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220615/documents/cfsc20220615min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:50.642142+00:00",
+    "meeting_id": "18220",
+    "vote_date": "2022-07-20",
+    "meeting_type": "Policy & Strategic Priorities",
+    "motion_count": 27,
+    "unmatched_motion_count": 5,
+    "vote_numbers": [
+      "8706",
+      "8709",
+      "8720",
+      "8726",
+      "8728"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220720/documents/pspc20220720min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/pspc20220720min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20220720/documents/pspc20220720min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 259717,
+      "page_count": 40,
+      "text_characters": 85021,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 5,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8706",
+        "8709",
+        "8720",
+        "8726",
+        "8728"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220720/documents/pspc20220720min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:51.050239+00:00",
+    "meeting_id": "18443",
+    "vote_date": "2023-02-02",
+    "meeting_type": "Auditor General Committee",
+    "motion_count": 5,
+    "unmatched_motion_count": 5,
+    "vote_numbers": [
+      "8990",
+      "8992",
+      "8993",
+      "8994",
+      "8996"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230202/documents/agc20230202min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/agc20230202min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 5,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8990",
+        "8992",
+        "8993",
+        "8994",
+        "8996"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230202/documents/agc20230202min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:51.460563+00:00",
+    "meeting_id": "18357",
+    "vote_date": "2023-03-09",
+    "meeting_type": "Public Hearing",
+    "motion_count": 5,
+    "unmatched_motion_count": 5,
+    "vote_numbers": [
+      "9098",
+      "9099",
+      "9100",
+      "9101",
+      "9102"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230309/documents/phea20230309min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20230309min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 5,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9098",
+        "9099",
+        "9100",
+        "9101",
+        "9102"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230309/documents/phea20230309min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:52.208941+00:00",
+    "meeting_id": "18389",
+    "vote_date": "2023-07-13",
+    "meeting_type": "Public Hearing",
+    "motion_count": 5,
+    "unmatched_motion_count": 5,
+    "vote_numbers": [
+      "9416",
+      "9417",
+      "9418",
+      "9419",
+      "9420"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230713/documents/phea20230713min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20230713min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20230713/documents/phea20230713min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 248329,
+      "page_count": 16,
+      "text_characters": 33559,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 5,
+      "matched_vote_count": 5,
+      "matched_vote_numbers": [
+        "9416",
+        "9417",
+        "9418",
+        "9419",
+        "9420"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230713/documents/phea20230713min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 5
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:52.925611+00:00",
+    "meeting_id": "18558",
+    "vote_date": "2024-05-30",
+    "meeting_type": "Public Hearing",
+    "motion_count": 5,
+    "unmatched_motion_count": 5,
+    "vote_numbers": [
+      "10016",
+      "10017",
+      "10018",
+      "10019",
+      "10020"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240530/documents/phea20240530min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20240530min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20240530/documents/phea20240530min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 215115,
+      "page_count": 13,
+      "text_characters": 26433,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 5,
+      "matched_vote_count": 5,
+      "matched_vote_numbers": [
+        "10016",
+        "10017",
+        "10018",
+        "10019",
+        "10020"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240530/documents/phea20240530min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 5
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:53.870676+00:00",
+    "meeting_id": "18674",
+    "vote_date": "2025-09-16",
+    "meeting_type": "Council",
+    "motion_count": 17,
+    "unmatched_motion_count": 5,
+    "vote_numbers": [
+      "10925",
+      "10926",
+      "10929",
+      "10931",
+      "10934"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250916/documents/regu20250916min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/regu20250916min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20250916/documents/regu20250916min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 371882,
+      "page_count": 29,
+      "text_characters": 66685,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 5,
+      "matched_vote_count": 5,
+      "matched_vote_numbers": [
+        "10925",
+        "10926",
+        "10929",
+        "10931",
+        "10934"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250916/documents/regu20250916min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 5
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:54.676789+00:00",
+    "meeting_id": "18870",
+    "vote_date": "2026-02-03",
+    "meeting_type": "Public Hearing",
+    "motion_count": 5,
+    "unmatched_motion_count": 5,
+    "vote_numbers": [
+      "11358",
+      "11359",
+      "11360",
+      "11361",
+      "11362"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260203/documents/phea20260203min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260203min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260203/documents/phea20260203min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 246468,
+      "page_count": 21,
+      "text_characters": 43641,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 5,
+      "matched_vote_count": 5,
+      "matched_vote_numbers": [
+        "11358",
+        "11359",
+        "11360",
+        "11361",
+        "11362"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260203/documents/phea20260203min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 5
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:55.388042+00:00",
+    "meeting_id": "18871",
+    "vote_date": "2026-02-05",
+    "meeting_type": "Public Hearing",
+    "motion_count": 5,
+    "unmatched_motion_count": 5,
+    "vote_numbers": [
+      "11376",
+      "11377",
+      "11378",
+      "11379",
+      "11380"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260205/documents/phea20260205min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260205min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260205/documents/phea20260205min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 107637,
+      "page_count": 15,
+      "text_characters": 28563,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 5,
+      "matched_vote_count": 5,
+      "matched_vote_numbers": [
+        "11376",
+        "11377",
+        "11378",
+        "11379",
+        "11380"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260205/documents/phea20260205min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 5
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:55.792871+00:00",
+    "meeting_id": "18068",
+    "vote_date": "2021-11-02",
+    "meeting_type": "Council",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "7762",
+      "7764",
+      "7765",
+      "7766"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20211102/documents/regu20211102min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/regu20211102min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 4,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "7762",
+        "7764",
+        "7765",
+        "7766"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20211102/documents/regu20211102min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:56.460641+00:00",
+    "meeting_id": "18171",
+    "vote_date": "2022-01-25",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "8001",
+      "8002",
+      "8003",
+      "8004"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220125/documents/phea20220125min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20220125min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20220125/documents/phea20220125min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 73173,
+      "page_count": 10,
+      "text_characters": 20427,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 4,
+      "matched_vote_numbers": [
+        "8001",
+        "8002",
+        "8003",
+        "8004"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220125/documents/phea20220125min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 4
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:57.168367+00:00",
+    "meeting_id": "18210",
+    "vote_date": "2022-06-21",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "8544",
+      "8545",
+      "8546",
+      "8547"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220621/documents/phea20220621min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20220621min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20220621/documents/phea20220621min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 92658,
+      "page_count": 12,
+      "text_characters": 22492,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 4,
+      "matched_vote_numbers": [
+        "8544",
+        "8545",
+        "8546",
+        "8547"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220621/documents/phea20220621min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 4
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:57.855751+00:00",
+    "meeting_id": "18212",
+    "vote_date": "2022-06-23",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "8610",
+      "8611",
+      "8612",
+      "8613"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220623/documents/phea20220623min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20220623min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20220623/documents/phea20220623min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 200199,
+      "page_count": 11,
+      "text_characters": 21520,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 4,
+      "matched_vote_numbers": [
+        "8610",
+        "8611",
+        "8612",
+        "8613"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220623/documents/phea20220623min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 4
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:58.258089+00:00",
+    "meeting_id": "18429",
+    "vote_date": "2023-06-15",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "9340",
+      "9341",
+      "9342",
+      "9343"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230615/documents/phea20230615min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20230615min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 4,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9340",
+        "9341",
+        "9342",
+        "9343"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230615/documents/phea20230615min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:58.935126+00:00",
+    "meeting_id": "18397",
+    "vote_date": "2023-09-12",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "9481",
+      "9482",
+      "9483",
+      "9484"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230912/documents/phea20230912min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20230912min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20230912/documents/phea20230912min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 192410,
+      "page_count": 11,
+      "text_characters": 22286,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 4,
+      "matched_vote_numbers": [
+        "9481",
+        "9482",
+        "9483",
+        "9484"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230912/documents/phea20230912min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 4
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:55:59.496986+00:00",
+    "meeting_id": "18481",
+    "vote_date": "2024-01-24",
+    "meeting_type": "Policy & Strategic Priorities",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "9771",
+      "9772",
+      "9773",
+      "9775"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240124/documents/pspc20240124min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/pspc20240124min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20240124/documents/pspc20240124min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 122807,
+      "page_count": 10,
+      "text_characters": 16556,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 4,
+      "matched_vote_numbers": [
+        "9771",
+        "9772",
+        "9773",
+        "9775"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240124/documents/pspc20240124min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 4
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:00.204621+00:00",
+    "meeting_id": "18734",
+    "vote_date": "2025-05-20",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "10709",
+      "10710",
+      "10711",
+      "10712"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250520/documents/phea20250520min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20250520min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20250520/documents/phea20250520min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 102491,
+      "page_count": 14,
+      "text_characters": 27787,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 4,
+      "matched_vote_numbers": [
+        "10709",
+        "10710",
+        "10711",
+        "10712"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250520/documents/phea20250520min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 4
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:00.900101+00:00",
+    "meeting_id": "18762",
+    "vote_date": "2025-10-23",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "11061",
+      "11062",
+      "11063",
+      "11064"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20251023/documents/phea20251023min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20251023min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20251023/documents/phea20251023min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 209505,
+      "page_count": 13,
+      "text_characters": 25535,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 4,
+      "matched_vote_numbers": [
+        "11061",
+        "11062",
+        "11063",
+        "11064"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20251023/documents/phea20251023min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 4
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:01.607994+00:00",
+    "meeting_id": "18798",
+    "vote_date": "2026-01-13",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "11269",
+      "11270",
+      "11271",
+      "11272"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260113/documents/phea20260113min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260113min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260113/documents/phea20260113min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 306640,
+      "page_count": 12,
+      "text_characters": 22906,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 4,
+      "matched_vote_numbers": [
+        "11269",
+        "11270",
+        "11271",
+        "11272"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260113/documents/phea20260113min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 4
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:02.291380+00:00",
+    "meeting_id": "18799",
+    "vote_date": "2026-01-15",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "11273",
+      "11274",
+      "11275",
+      "11276"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260115/documents/phea20260115min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260115min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260115/documents/phea20260115min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 258225,
+      "page_count": 12,
+      "text_characters": 22484,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 4,
+      "matched_vote_numbers": [
+        "11273",
+        "11274",
+        "11275",
+        "11276"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260115/documents/phea20260115min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 4
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:03.055331+00:00",
+    "meeting_id": "18872",
+    "vote_date": "2026-02-17",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "11394",
+      "11398",
+      "11399",
+      "11400"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260217/documents/phea20260217min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260217min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260217/documents/phea20260217min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 241426,
+      "page_count": 19,
+      "text_characters": 36282,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 4,
+      "matched_vote_numbers": [
+        "11394",
+        "11398",
+        "11399",
+        "11400"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260217/documents/phea20260217min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 4
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:03.712727+00:00",
+    "meeting_id": "18803",
+    "vote_date": "2026-02-26",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "11428",
+      "11429",
+      "11430",
+      "11431"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260226/documents/phea20260226min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260226min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260226/documents/phea20260226min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 208186,
+      "page_count": 11,
+      "text_characters": 20429,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 4,
+      "matched_vote_numbers": [
+        "11428",
+        "11429",
+        "11430",
+        "11431"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260226/documents/phea20260226min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 4
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:04.218183+00:00",
+    "meeting_id": "18885",
+    "vote_date": "2026-02-26",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "11424",
+      "11425",
+      "11426",
+      "11427"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260226/documents/phea20260226min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260226min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260226/documents/phea20260226min.pdf",
+    "retrieval": "existing_file",
+    "validation": {
+      "valid": true,
+      "bytes": 208186,
+      "page_count": 11,
+      "text_characters": 20429,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "11424",
+        "11425",
+        "11426",
+        "11427"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260226/documents/phea20260226min.pdf",
+        "retrieval": "existing_file",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:04.995801+00:00",
+    "meeting_id": "18804",
+    "vote_date": "2026-03-05",
+    "meeting_type": "Public Hearing",
+    "motion_count": 4,
+    "unmatched_motion_count": 4,
+    "vote_numbers": [
+      "11435",
+      "11436",
+      "11437",
+      "11438"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260305/documents/phea20260305min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260305min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260305/documents/phea20260305min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 248782,
+      "page_count": 13,
+      "text_characters": 23594,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 4,
+      "matched_vote_count": 3,
+      "matched_vote_numbers": [
+        "11436",
+        "11437",
+        "11438"
+      ],
+      "missing_vote_numbers": [
+        "11435"
+      ],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260305/documents/phea20260305min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 3
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:05.399664+00:00",
+    "meeting_id": "18265",
+    "vote_date": "2022-01-27",
+    "meeting_type": "Policy & Strategic Priorities",
+    "motion_count": 3,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "8054",
+      "8055",
+      "8056"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220127/documents/pspc20220127min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/pspc20220127min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 3,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8054",
+        "8055",
+        "8056"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220127/documents/pspc20220127min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:06.166218+00:00",
+    "meeting_id": "18367",
+    "vote_date": "2023-04-26",
+    "meeting_type": "Policy & Strategic Priorities",
+    "motion_count": 14,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "9202",
+      "9203",
+      "9214"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230426/documents/pspc20230426min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/pspc20230426min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20230426/documents/pspc20230426min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 126018,
+      "page_count": 18,
+      "text_characters": 38717,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 3,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9202",
+        "9203",
+        "9214"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230426/documents/pspc20230426min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:06.576400+00:00",
+    "meeting_id": "18468",
+    "vote_date": "2023-04-26",
+    "meeting_type": "Council",
+    "motion_count": 3,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "9205",
+      "9206",
+      "9207"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230426/documents/regu20230426min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/regu20230426min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 3,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9205",
+        "9206",
+        "9207"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230426/documents/regu20230426min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:06.971135+00:00",
+    "meeting_id": "18472",
+    "vote_date": "2023-09-28",
+    "meeting_type": "Public Hearing",
+    "motion_count": 3,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "9500",
+      "9501",
+      "9502"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230928/documents/phea20230928min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20230928min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 3,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9500",
+        "9501",
+        "9502"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230928/documents/phea20230928min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:07.872185+00:00",
+    "meeting_id": "18547",
+    "vote_date": "2024-01-23",
+    "meeting_type": "Public Hearing",
+    "motion_count": 3,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "9768",
+      "9769",
+      "9770"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240123/documents/phea20240123min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20240123min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20240123/documents/phea20240123min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 242513,
+      "page_count": 17,
+      "text_characters": 34935,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 3,
+      "matched_vote_count": 3,
+      "matched_vote_numbers": [
+        "9768",
+        "9769",
+        "9770"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240123/documents/phea20240123min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 3
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:08.495607+00:00",
+    "meeting_id": "18549",
+    "vote_date": "2024-02-27",
+    "meeting_type": "Public Hearing",
+    "motion_count": 3,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "9813",
+      "9814",
+      "9815"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240227/documents/phea20240227min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20240227min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20240227/documents/phea20240227min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 143283,
+      "page_count": 9,
+      "text_characters": 17060,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 3,
+      "matched_vote_count": 3,
+      "matched_vote_numbers": [
+        "9813",
+        "9814",
+        "9815"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240227/documents/phea20240227min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 3
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:09.127859+00:00",
+    "meeting_id": "18550",
+    "vote_date": "2024-02-29",
+    "meeting_type": "Public Hearing",
+    "motion_count": 3,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "9830",
+      "9831",
+      "9832"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240229/documents/phea20240229min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20240229min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20240229/documents/phea20240229min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 92648,
+      "page_count": 8,
+      "text_characters": 16487,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 3,
+      "matched_vote_count": 3,
+      "matched_vote_numbers": [
+        "9830",
+        "9831",
+        "9832"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240229/documents/phea20240229min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 3
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:09.770347+00:00",
+    "meeting_id": "18711",
+    "vote_date": "2025-01-23",
+    "meeting_type": "Public Hearing",
+    "motion_count": 3,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "10485",
+      "10486",
+      "10487"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250123/documents/phea20250123min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20250123min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20250123/documents/phea20250123min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 78108,
+      "page_count": 10,
+      "text_characters": 18728,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 3,
+      "matched_vote_count": 3,
+      "matched_vote_numbers": [
+        "10485",
+        "10486",
+        "10487"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250123/documents/phea20250123min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 3
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:10.514475+00:00",
+    "meeting_id": "18662",
+    "vote_date": "2025-06-18",
+    "meeting_type": "City Finance & Services",
+    "motion_count": 19,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "10799",
+      "10800",
+      "10801"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250618/documents/cfsc20250618min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/cfsc20250618min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20250618/documents/cfsc20250618min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 175745,
+      "page_count": 17,
+      "text_characters": 31697,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 3,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "10799",
+        "10800",
+        "10801"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250618/documents/cfsc20250618min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:11.150268+00:00",
+    "meeting_id": "18763",
+    "vote_date": "2025-10-30",
+    "meeting_type": "Public Hearing",
+    "motion_count": 3,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "11080",
+      "11081",
+      "11082"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20251030/documents/phea20251030min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20251030min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20251030/documents/phea20251030min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 75485,
+      "page_count": 9,
+      "text_characters": 16892,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 3,
+      "matched_vote_count": 3,
+      "matched_vote_numbers": [
+        "11080",
+        "11081",
+        "11082"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20251030/documents/phea20251030min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 3
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:11.803399+00:00",
+    "meeting_id": "18775",
+    "vote_date": "2025-11-13",
+    "meeting_type": "Public Hearing",
+    "motion_count": 3,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "11134",
+      "11135",
+      "11136"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20251113/documents/phea20251113min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20251113min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20251113/documents/phea20251113min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 209033,
+      "page_count": 9,
+      "text_characters": 17247,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 3,
+      "matched_vote_count": 3,
+      "matched_vote_numbers": [
+        "11134",
+        "11135",
+        "11136"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20251113/documents/phea20251113min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 3
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:12.477999+00:00",
+    "meeting_id": "18801",
+    "vote_date": "2026-01-22",
+    "meeting_type": "Public Hearing",
+    "motion_count": 3,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "11316",
+      "11317",
+      "11318"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260122/documents/phea20260122min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260122min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260122/documents/phea20260122min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 208377,
+      "page_count": 13,
+      "text_characters": 22826,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 3,
+      "matched_vote_count": 3,
+      "matched_vote_numbers": [
+        "11316",
+        "11317",
+        "11318"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260122/documents/phea20260122min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 3
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:13.056022+00:00",
+    "meeting_id": "18777",
+    "vote_date": "2026-02-12",
+    "meeting_type": "Auditor General Committee",
+    "motion_count": 3,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "11388",
+      "11389",
+      "11390"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260212/documents/agc20260212min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/agc20260212min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260212/documents/agc20260212min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 47933,
+      "page_count": 5,
+      "text_characters": 7256,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 3,
+      "matched_vote_count": 3,
+      "matched_vote_numbers": [
+        "11388",
+        "11389",
+        "11390"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260212/documents/agc20260212min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 3
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:13.643822+00:00",
+    "meeting_id": "18873",
+    "vote_date": "2026-02-19",
+    "meeting_type": "Public Hearing",
+    "motion_count": 3,
+    "unmatched_motion_count": 3,
+    "vote_numbers": [
+      "11401",
+      "11402",
+      "11403"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260219/documents/phea20260219min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260219min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260219/documents/phea20260219min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 82475,
+      "page_count": 18,
+      "text_characters": 32067,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 3,
+      "matched_vote_count": 3,
+      "matched_vote_numbers": [
+        "11401",
+        "11402",
+        "11403"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260219/documents/phea20260219min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 3
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:14.049946+00:00",
+    "meeting_id": "18294",
+    "vote_date": "2022-04-22",
+    "meeting_type": "Auditor General Committee",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "8295",
+      "8296"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220422/documents/agc20220422min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/agc20220422min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8295",
+        "8296"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220422/documents/agc20220422min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:14.654931+00:00",
+    "meeting_id": "18350",
+    "vote_date": "2023-01-19",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "8963",
+      "8964"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230119/documents/phea20230119min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20230119min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20230119/documents/phea20230119min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 45982,
+      "page_count": 6,
+      "text_characters": 10120,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 2,
+      "matched_vote_count": 2,
+      "matched_vote_numbers": [
+        "8963",
+        "8964"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230119/documents/phea20230119min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 2
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:15.053858+00:00",
+    "meeting_id": "18444",
+    "vote_date": "2023-03-02",
+    "meeting_type": "Auditor General Committee",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "9067",
+      "9068"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230302/documents/agc20230302min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/agc20230302min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9067",
+        "9068"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230302/documents/agc20230302min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:15.459582+00:00",
+    "meeting_id": "18460",
+    "vote_date": "2023-03-30",
+    "meeting_type": "Policy & Strategic Priorities",
+    "motion_count": 8,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "9142",
+      "9145"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230330/documents/pspc20230330min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/pspc20230330min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9142",
+        "9145"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230330/documents/pspc20230330min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:15.863294+00:00",
+    "meeting_id": "18364",
+    "vote_date": "2023-04-13",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "9180",
+      "9181"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230413/documents/phea20230413min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20230413min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9180",
+        "9181"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230413/documents/phea20230413min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:16.275514+00:00",
+    "meeting_id": "18405",
+    "vote_date": "2023-10-19",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "9573",
+      "9574"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20231019/documents/phea20231019min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20231019min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9573",
+        "9574"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20231019/documents/phea20231019min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:16.672140+00:00",
+    "meeting_id": "18594",
+    "vote_date": "2024-01-30",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "9778",
+      "9779"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240130/documents/phea20240130min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20240130min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9778",
+        "9779"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240130/documents/phea20240130min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:17.078850+00:00",
+    "meeting_id": "18583",
+    "vote_date": "2024-02-22",
+    "meeting_type": "Auditor General Committee",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "9798",
+      "9799"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240222/documents/agc20240222min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/agc20240222min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9798",
+        "9799"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240222/documents/agc20240222min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:17.489856+00:00",
+    "meeting_id": "18533",
+    "vote_date": "2024-11-19",
+    "meeting_type": "Special Council",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "10330",
+      "10331"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20241119/documents/spec20241119min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20241119min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "10330",
+        "10331"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20241119/documents/spec20241119min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:18.081895+00:00",
+    "meeting_id": "18540",
+    "vote_date": "2024-12-03",
+    "meeting_type": "Special Council",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "10370",
+      "10371"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20241203/documents/spec20241203min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20241203min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20241203/documents/spec20241203min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 207250,
+      "page_count": 4,
+      "text_characters": 5706,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 2,
+      "matched_vote_count": 2,
+      "matched_vote_numbers": [
+        "10370",
+        "10371"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20241203/documents/spec20241203min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 2
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:18.637768+00:00",
+    "meeting_id": "18627",
+    "vote_date": "2025-01-28",
+    "meeting_type": "Special Council",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "10489",
+      "10490"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250128/documents/spec20250128min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20250128min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20250128/documents/spec20250128min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 32850,
+      "page_count": 2,
+      "text_characters": 2019,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 2,
+      "matched_vote_count": 1,
+      "matched_vote_numbers": [
+        "10490"
+      ],
+      "missing_vote_numbers": [
+        "10489"
+      ],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250128/documents/spec20250128min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 1
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:19.052470+00:00",
+    "meeting_id": "18749",
+    "vote_date": "2025-06-10",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "10765",
+      "10766"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250610/documents/phea20250610min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20250610min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "10765",
+        "10766"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250610/documents/phea20250610min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:19.722473+00:00",
+    "meeting_id": "18661",
+    "vote_date": "2025-06-17",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "10778",
+      "10779"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250617/documents/phea20250617min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20250617min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20250617/documents/phea20250617min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 86203,
+      "page_count": 11,
+      "text_characters": 19407,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 2,
+      "matched_vote_count": 2,
+      "matched_vote_numbers": [
+        "10778",
+        "10779"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250617/documents/phea20250617min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 2
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:20.121662+00:00",
+    "meeting_id": "18755",
+    "vote_date": "2025-06-25",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "10812",
+      "10813"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250625/documents/phea20250625min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20250625min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "10812",
+        "10813"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250625/documents/phea20250625min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:20.722310+00:00",
+    "meeting_id": "18767",
+    "vote_date": "2025-11-12",
+    "meeting_type": "Special Council",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "11132",
+      "11133"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20251112/documents/spec20251112min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20251112min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20251112/documents/spec20251112min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 207028,
+      "page_count": 7,
+      "text_characters": 10989,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 2,
+      "matched_vote_count": 2,
+      "matched_vote_numbers": [
+        "11132",
+        "11133"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20251112/documents/spec20251112min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 2
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:21.134341+00:00",
+    "meeting_id": "18687",
+    "vote_date": "2025-11-18",
+    "meeting_type": "Special Council",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "11140",
+      "11141"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20251118/documents/spec20251118min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20251118min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "11140",
+        "11141"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20251118/documents/spec20251118min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:21.654908+00:00",
+    "meeting_id": "18879",
+    "vote_date": "2026-01-22",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "11314",
+      "11315"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260122/documents/phea20260122min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260122min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260122/documents/phea20260122min.pdf",
+    "retrieval": "existing_file",
+    "validation": {
+      "valid": true,
+      "bytes": 208377,
+      "page_count": 13,
+      "text_characters": 22826,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "11314",
+        "11315"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260122/documents/phea20260122min.pdf",
+        "retrieval": "existing_file",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:22.056124+00:00",
+    "meeting_id": "18880",
+    "vote_date": "2026-01-27",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "11321",
+      "11322"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260127/documents/phea20260127min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260127min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "11321",
+        "11322"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260127/documents/phea20260127min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:22.784324+00:00",
+    "meeting_id": "18875",
+    "vote_date": "2026-02-12",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "11391",
+      "11392"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260212/documents/phea20260212min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260212min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260212/documents/phea20260212min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 215055,
+      "page_count": 13,
+      "text_characters": 26115,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 2,
+      "matched_vote_count": 2,
+      "matched_vote_numbers": [
+        "11391",
+        "11392"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260212/documents/phea20260212min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 2
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:23.479037+00:00",
+    "meeting_id": "18802",
+    "vote_date": "2026-02-24",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "11413",
+      "11414"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260224/documents/phea20260224min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260224min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260224/documents/phea20260224min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 207379,
+      "page_count": 11,
+      "text_characters": 19512,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 2,
+      "matched_vote_count": 2,
+      "matched_vote_numbers": [
+        "11413",
+        "11414"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260224/documents/phea20260224min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 2
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:23.879326+00:00",
+    "meeting_id": "18886",
+    "vote_date": "2026-03-04",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "11433",
+      "11434"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260304/documents/phea20260304min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260304min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "11433",
+        "11434"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260304/documents/phea20260304min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:24.617439+00:00",
+    "meeting_id": "18805",
+    "vote_date": "2026-03-10",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "11463",
+      "11464"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260310/documents/phea20260310min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260310min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260310/documents/phea20260310min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 203159,
+      "page_count": 10,
+      "text_characters": 18830,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 2,
+      "matched_vote_count": 2,
+      "matched_vote_numbers": [
+        "11463",
+        "11464"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260310/documents/phea20260310min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 2
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:25.031471+00:00",
+    "meeting_id": "18893",
+    "vote_date": "2026-03-11",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 2,
+    "vote_numbers": [
+      "11474",
+      "11475"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260311/documents/phea20260311min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260311min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 2,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "11474",
+        "11475"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260311/documents/phea20260311min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:25.601573+00:00",
+    "meeting_id": "18075",
+    "vote_date": "2021-11-23",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "7841"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20211123/documents/spec20211123min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20211123min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20211123/documents/spec20211123min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 40149,
+      "page_count": 2,
+      "text_characters": 3200,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "7841"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20211123/documents/spec20211123min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:26.009905+00:00",
+    "meeting_id": "18253",
+    "vote_date": "2021-11-25",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "7854"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20211125/documents/phea20211125min.pdf",
+    "reason": "not_cached",
+    "destination": "data/enrichment/browser_minutes/phea20211125min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "7854"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20211125/documents/phea20211125min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:27.038693+00:00",
+    "meeting_id": "18078",
+    "vote_date": "2021-12-07",
+    "meeting_type": "Council",
+    "motion_count": 41,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "7899"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20211207/documents/regu20211207min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/regu20211207min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20211207/documents/regu20211207min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 379573,
+      "page_count": 36,
+      "text_characters": 75419,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "7899"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20211207/documents/regu20211207min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:27.442746+00:00",
+    "meeting_id": "18174",
+    "vote_date": "2022-02-01",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8066"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220201/documents/spec20220201min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20220201min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8066"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220201/documents/spec20220201min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:27.858795+00:00",
+    "meeting_id": "18176",
+    "vote_date": "2022-02-02",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8068"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220202/documents/spec20220202min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20220202min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8068"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220202/documents/spec20220202min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:28.255150+00:00",
+    "meeting_id": "18185",
+    "vote_date": "2022-03-08",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8176"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220308/documents/spec20220308min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20220308min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8176"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220308/documents/spec20220308min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:28.649570+00:00",
+    "meeting_id": "18186",
+    "vote_date": "2022-03-09",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8177"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220309/documents/spec20220309min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20220309min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8177"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220309/documents/spec20220309min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:29.493778+00:00",
+    "meeting_id": "18191",
+    "vote_date": "2022-04-13",
+    "meeting_type": "Policy & Strategic Priorities",
+    "motion_count": 16,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8277"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220413/documents/pspc20220413min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/pspc20220413min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20220413/documents/pspc20220413min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 153633,
+      "page_count": 23,
+      "text_characters": 47945,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8277"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220413/documents/pspc20220413min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:29.897446+00:00",
+    "meeting_id": "18194",
+    "vote_date": "2022-04-20",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8291"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220420/documents/spec20220420min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20220420min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8291"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220420/documents/spec20220420min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:30.298149+00:00",
+    "meeting_id": "18297",
+    "vote_date": "2022-04-21",
+    "meeting_type": "Public Hearing",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8293"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220421/documents/phea20220421min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20220421min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8293"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220421/documents/phea20220421min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:31.669400+00:00",
+    "meeting_id": "18197",
+    "vote_date": "2022-05-17",
+    "meeting_type": "Council",
+    "motion_count": 38,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8368"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220517/documents/regu20220517min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/regu20220517min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20220517/documents/regu20220517min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 674339,
+      "page_count": 54,
+      "text_characters": 122526,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 1,
+      "matched_vote_numbers": [
+        "8368"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220517/documents/regu20220517min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 1
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:32.072863+00:00",
+    "meeting_id": "18202",
+    "vote_date": "2022-05-25",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8406"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220525/documents/spec20220525min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20220525min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8406"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220525/documents/spec20220525min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:32.702522+00:00",
+    "meeting_id": "18203",
+    "vote_date": "2022-06-07",
+    "meeting_type": "Council",
+    "motion_count": 30,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8433"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220607/documents/regu20220607min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/regu20220607min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20220607/documents/regu20220607min.pdf",
+    "retrieval": "existing_file",
+    "validation": {
+      "valid": true,
+      "bytes": 179551,
+      "page_count": 59,
+      "text_characters": 136877,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8433"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220607/documents/regu20220607min.pdf",
+        "retrieval": "existing_file",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:33.115773+00:00",
+    "meeting_id": "18208",
+    "vote_date": "2022-06-15",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8512"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220615/documents/spec20220615min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20220615min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8512"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220615/documents/spec20220615min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:33.513808+00:00",
+    "meeting_id": "18215",
+    "vote_date": "2022-07-06",
+    "meeting_type": "City Finance & Services",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8657"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20220706/documents/cfsc20220706min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/cfsc20220706min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8657"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20220706/documents/cfsc20220706min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:33.918327+00:00",
+    "meeting_id": "18230",
+    "vote_date": "2022-11-22",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8873"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20221122/documents/spec20221122min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20221122min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8873"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20221122/documents/spec20221122min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:34.324751+00:00",
+    "meeting_id": "18231",
+    "vote_date": "2022-11-23",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "8888"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20221123/documents/spec20221123min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20221123min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "8888"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20221123/documents/spec20221123min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:34.722626+00:00",
+    "meeting_id": "18454",
+    "vote_date": "2023-03-01",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "9066"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230301/documents/spec20230301min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20230301min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9066"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230301/documents/spec20230301min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:35.122558+00:00",
+    "meeting_id": "18445",
+    "vote_date": "2023-05-15",
+    "meeting_type": "Auditor General Committee",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "9277"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230515/documents/agc20230515min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/agc20230515min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9277"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230515/documents/agc20230515min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:35.805121+00:00",
+    "meeting_id": "18376",
+    "vote_date": "2023-05-31",
+    "meeting_type": "Policy & Strategic Priorities",
+    "motion_count": 9,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "9304"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230531/documents/pspc20230531min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/pspc20230531min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20230531/documents/pspc20230531min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 216250,
+      "page_count": 12,
+      "text_characters": 22772,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9304"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230531/documents/pspc20230531min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:36.215012+00:00",
+    "meeting_id": "18446",
+    "vote_date": "2023-06-01",
+    "meeting_type": "Auditor General Committee",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "9306"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230601/documents/agc20230601min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/agc20230601min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9306"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230601/documents/agc20230601min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:36.937812+00:00",
+    "meeting_id": "18381",
+    "vote_date": "2023-06-14",
+    "meeting_type": "City Finance & Services",
+    "motion_count": 9,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "9339"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20230614/documents/cfsc20230614min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/cfsc20230614min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20230614/documents/cfsc20230614min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 102293,
+      "page_count": 14,
+      "text_characters": 29085,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9339"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20230614/documents/cfsc20230614min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:37.339523+00:00",
+    "meeting_id": "18483",
+    "vote_date": "2024-01-31",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "9780"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240131/documents/spec20240131min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20240131min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9780"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240131/documents/spec20240131min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:37.737308+00:00",
+    "meeting_id": "18491",
+    "vote_date": "2024-03-05",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "9834"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240305/documents/spec20240305min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20240305min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9834"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240305/documents/spec20240305min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:38.138601+00:00",
+    "meeting_id": "18600",
+    "vote_date": "2024-05-14",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "9984"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240514/documents/spec20240514min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20240514min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "9984"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240514/documents/spec20240514min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:38.650100+00:00",
+    "meeting_id": "18602",
+    "vote_date": "2024-06-04",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "10023"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240604/documents/spec20240604min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20240604min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20240604/documents/spec20240604min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 33502,
+      "page_count": 2,
+      "text_characters": 2459,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 1,
+      "matched_vote_numbers": [
+        "10023"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240604/documents/spec20240604min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 1
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:39.273901+00:00",
+    "meeting_id": "18562",
+    "vote_date": "2024-07-09",
+    "meeting_type": "Public Hearing",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "10129"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20240709/documents/phea20240709min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20240709min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20240709/documents/phea20240709min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 60210,
+      "page_count": 6,
+      "text_characters": 10501,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 1,
+      "matched_vote_numbers": [
+        "10129"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20240709/documents/phea20240709min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 1
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:39.685718+00:00",
+    "meeting_id": "18614",
+    "vote_date": "2024-10-10",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "10254"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20241010/documents/spec20241010min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20241010min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "10254"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20241010/documents/spec20241010min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:40.092407+00:00",
+    "meeting_id": "18703",
+    "vote_date": "2024-11-14",
+    "meeting_type": "Public Hearing",
+    "motion_count": 2,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "10329"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20241114/documents/phea20241114min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/phea20241114min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "10329"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20241114/documents/phea20241114min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:40.491134+00:00",
+    "meeting_id": "18628",
+    "vote_date": "2025-01-29",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "10491"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250129/documents/spec20250129min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20250129min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "10491"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250129/documents/spec20250129min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:40.898379+00:00",
+    "meeting_id": "18638",
+    "vote_date": "2025-03-05",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "10557"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250305/documents/spec20250305min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20250305min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "10557"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250305/documents/spec20250305min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:41.957980+00:00",
+    "meeting_id": "18667",
+    "vote_date": "2025-07-09",
+    "meeting_type": "Policy & Strategic Priorities",
+    "motion_count": 18,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "10849"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250709/documents/pspc20250709min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/pspc20250709min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20250709/documents/pspc20250709min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 656504,
+      "page_count": 34,
+      "text_characters": 78606,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "10849"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250709/documents/pspc20250709min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:42.364649+00:00",
+    "meeting_id": "18668",
+    "vote_date": "2025-07-15",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "10866"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250715/documents/spec20250715min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20250715min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "10866"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250715/documents/spec20250715min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:42.763600+00:00",
+    "meeting_id": "18669",
+    "vote_date": "2025-07-16",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "10867"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20250716/documents/spec20250716min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20250716min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "10867"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20250716/documents/spec20250716min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:43.571298+00:00",
+    "meeting_id": "18676",
+    "vote_date": "2025-10-07",
+    "meeting_type": "Council",
+    "motion_count": 7,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "10991"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20251007/documents/regu20251007min.pdf",
+    "reason": "vote_number_not_found_in_matched_minutes",
+    "destination": "data/enrichment/browser_minutes/regu20251007min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20251007/documents/regu20251007min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 5537994,
+      "page_count": 32,
+      "text_characters": 41059,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "10991"
+      ],
+      "warnings": [
+        "none_of_the_expected_vote_numbers_were_found"
+      ],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20251007/documents/regu20251007min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:43.975272+00:00",
+    "meeting_id": "18678",
+    "vote_date": "2025-10-14",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "11025"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20251014/documents/spec20251014min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20251014min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "11025"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20251014/documents/spec20251014min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:44.529956+00:00",
+    "meeting_id": "18858",
+    "vote_date": "2025-11-06",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "11127"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20251106/documents/spec20251106min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20251106min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20251106/documents/spec20251106min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 32058,
+      "page_count": 3,
+      "text_characters": 3742,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 1,
+      "matched_vote_numbers": [
+        "11127"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20251106/documents/spec20251106min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 1
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:44.940838+00:00",
+    "meeting_id": "18860",
+    "vote_date": "2025-11-18",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "11139"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20251118/documents/spec20251118min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20251118min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "11139"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20251118/documents/spec20251118min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:45.693969+00:00",
+    "meeting_id": "18800",
+    "vote_date": "2026-01-20",
+    "meeting_type": "Public Hearing",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "11304"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260120/documents/phea20260120min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260120min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260120/documents/phea20260120min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 255157,
+      "page_count": 18,
+      "text_characters": 34508,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 1,
+      "matched_vote_numbers": [
+        "11304"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260120/documents/phea20260120min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 1
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:46.096852+00:00",
+    "meeting_id": "18881",
+    "vote_date": "2026-01-27",
+    "meeting_type": "Public Hearing",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "11323"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260127/documents/phea20260127min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260127min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "11323"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260127/documents/phea20260127min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:46.498624+00:00",
+    "meeting_id": "18890",
+    "vote_date": "2026-03-12",
+    "meeting_type": "Public Hearing",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "11476"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260312/documents/phea20260312min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260312min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "11476"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260312/documents/phea20260312min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:47.096188+00:00",
+    "meeting_id": "18806",
+    "vote_date": "2026-04-14",
+    "meeting_type": "Public Hearing",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "11538"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260414/documents/phea20260414min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/phea20260414min.pdf",
+    "selected_minutes_url": "https://council.vancouver.ca/20260414/documents/phea20260414min.pdf",
+    "retrieval": "browser_download",
+    "validation": {
+      "valid": true,
+      "bytes": 463984,
+      "page_count": 5,
+      "text_characters": 7326,
+      "date_verified": true,
+      "meeting_type_verified": true,
+      "expected_vote_count": 1,
+      "matched_vote_count": 1,
+      "matched_vote_numbers": [
+        "11538"
+      ],
+      "missing_vote_numbers": [],
+      "warnings": [],
+      "error": null
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260414/documents/phea20260414min.pdf",
+        "retrieval": "browser_download",
+        "valid": true,
+        "error": null,
+        "matched_vote_count": 1
+      }
+    ]
+  },
+  {
+    "checked_at": "2026-09-05T19:56:47.501468+00:00",
+    "meeting_id": "18838",
+    "vote_date": "2026-04-21",
+    "meeting_type": "Special Council",
+    "motion_count": 1,
+    "unmatched_motion_count": 1,
+    "vote_numbers": [
+      "11541"
+    ],
+    "expected_minutes_url": "https://council.vancouver.ca/20260421/documents/spec20260421min.pdf",
+    "reason": "minutes_not_available",
+    "destination": "data/enrichment/browser_minutes/spec20260421min.pdf",
+    "selected_minutes_url": null,
+    "retrieval": "http_404_not_pdf",
+    "validation": {
+      "valid": false,
+      "bytes": 0,
+      "page_count": 0,
+      "text_characters": 0,
+      "date_verified": false,
+      "meeting_type_verified": false,
+      "expected_vote_count": 1,
+      "matched_vote_count": 0,
+      "matched_vote_numbers": [],
+      "missing_vote_numbers": [
+        "11541"
+      ],
+      "warnings": [],
+      "error": "http_404_not_pdf"
+    },
+    "candidate_attempts": [
+      {
+        "lookback_days": 0,
+        "url": "https://council.vancouver.ca/20260421/documents/spec20260421min.pdf",
+        "retrieval": "http_404_not_pdf",
+        "valid": false,
+        "error": "http_404_not_pdf",
+        "matched_vote_count": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,295 @@
+{
+  "version": "3.0.0",
+  "curated_at": "2026-09-05",
+  "selection": {
+    "pool_count": 40,
+    "quiz_count": 20,
+    "starter_question_ids": [
+      "18538-10350",
+      "18425-9743",
+      "18690-11164",
+      "18636-10544",
+      "18695-11255",
+      "18496-9904",
+      "18764-11069",
+      "18673-10964",
+      "18869-11268",
+      "18542-10414",
+      "18415-9652",
+      "18658-10761",
+      "18671-10895",
+      "18519-10174",
+      "18691-11184",
+      "18391-9415",
+      "18221-8807",
+      "18763-11081",
+      "18671-10901",
+      "18825-11370"
+    ],
+    "minimum_confidence": 0.85,
+    "public_impact": "high",
+    "minimum_votes_each_side": 2,
+    "requires_exact_minutes_match": true,
+    "requires_no_review_flag": false,
+    "requires_not_direct_amendment": true,
+    "notes": "Forty manually reviewed, high-impact, divided votes. A fixed starter set of 20 prioritizes clear choices, public consequence, disagreement and issue breadth; the remaining 20 are available as an extension. Direct amendments are excluded; context identifies material scope, conditions and tradeoffs."
+  },
+  "questions": [
+    {
+      "motion_id": "18690-11164",
+      "prompt": "Would you approve Vancouver's final 2026 operating and capital budgets with no property-tax increase?",
+      "context": "The package funded the Police Board, Park Board, Library and other City services, held recreation fee increases at zero, and authorized a $894 million capital expenditure budget. Property taxes were frozen, while average utility charges were projected to rise 4.2% because of regional levies and infrastructure work.",
+      "tradeoff": "Weigh near-term tax relief and maintained priorities against service, reserve and longer-term funding pressures.",
+      "research_source_url": "https://vancouver.ca/news-calendar/council-approves-0-property-tax-nov-2025.aspx"
+    },
+    {
+      "motion_id": "18636-10544",
+      "prompt": "Would you pause most new City land and funding commitments for supportive housing while prioritizing replacement of older stock and regional delivery?",
+      "context": "The motion preserved specified projects and focused Vancouver resources on replacing deteriorating SROs, improving existing supportive housing and pressing other municipalities and senior governments to add capacity. A pause could limit new Vancouver sites while that work proceeds.",
+      "tradeoff": "Weigh regional distribution and replacement quality against the urgency of adding supportive homes within Vancouver."
+    },
+    {
+      "motion_id": "18818-11309",
+      "prompt": "Would you ask staff to create a faster levy-refund and approval path when nonprofits buy market developments for social housing?",
+      "context": "Nonprofit projects are generally exempt from development levies, but a market project bought after approval may have already paid them. The proposal sought predictable refunds and expedited City decisions so completed or near-completed buildings could be acquired for social housing.",
+      "tradeoff": "Weigh speed and financial certainty for nonprofit acquisitions against fiscal controls and case-by-case review."
+    },
+    {
+      "motion_id": "18415-9652",
+      "prompt": "Would you direct a plan for substantially more housing, shops and services in Shaughnessy?",
+      "context": "The proposal called for planning options near frequent transit while retaining heritage considerations and identifying infrastructure funding. It did not itself rezone properties or approve a particular height, density or affordability model.",
+      "tradeoff": "Weigh additional housing and access to an exclusive neighbourhood against heritage, infrastructure and neighbourhood-change concerns.",
+      "research_source_url": "https://council.vancouver.ca/20231115/cfsc20231115ag.htm"
+    },
+    {
+      "motion_id": "18318-8739",
+      "prompt": "Would you urge withdrawal of a proposed 47-storey tower with 484 secured-rental homes at 1075 West Georgia because it conflicted with policy reserving the business district for jobs?",
+      "context": "The proposed second tower contained ground-floor retail, one office floor and 484 secured-rental homes; 20% of its residential floor area was described as workforce housing. Staff said it lacked the job space, deep affordability and heritage protections needed to justify housing in the CBD, and recommended a different submission through the Policy Enquiry Process.",
+      "tradeoff": "Weigh preserving scarce downtown job space, consistent policy and stronger heritage benefits against redirecting hundreds of secured-rental homes away from a central, job-rich location.",
+      "research_source_url": "https://council.vancouver.ca/20220705/documents/r9.pdf"
+    },
+    {
+      "motion_id": "18496-9904",
+      "prompt": "Would you study a City licensing framework for psilocybin and other entheogen retailers?",
+      "context": "The motion responded to unlicensed shops by requesting regulatory options, intergovernmental advocacy and evidence-based harm-reduction approaches. A City licence would not itself legalize substances controlled under federal law.",
+      "tradeoff": "Weigh consumer safeguards and pragmatic oversight against legal, health and jurisdictional concerns.",
+      "research_source_url": "https://council.vancouver.ca/20240410/documents/pspcM2.pdf"
+    },
+    {
+      "motion_id": "18671-10895",
+      "prompt": "Would you create an arts-sector working group, explore dedicated City funding tools, and lobby senior governments to restore arts and festival grants?",
+      "context": "The final motion requested an arts-sector roundtable, streamlined permitting, and study of tools such as commercial-development contributions or venue surcharges. It also directed provincial and federal advocacy. The vote set planning and advocacy direction; it did not approve a specific facility or fixed spending amount.",
+      "tradeoff": "Weigh cultural and economic benefits against competing priorities and uncertainty about future funding commitments."
+    },
+    {
+      "motion_id": "18677-11009",
+      "prompt": "Would you direct staff to build the 2026 budget around a zero-percent property-tax increase while maintaining specified services and grants?",
+      "context": "Staff had projected that roughly 5–7% could be needed to maintain services and address obligations. The direction protected named priorities but required savings, reallocations or other revenues to close the gap before the final budget vote.",
+      "tradeoff": "Weigh immediate tax restraint against the risk of deferred costs, reduced flexibility or future service pressure."
+    },
+    {
+      "motion_id": "18677-11020",
+      "prompt": "Would you advance ten reforms to Vancouver's Code of Conduct and seek stronger provincial ethics legislation?",
+      "context": "The final motion requested work on complaint handling, enforcement and other Code of Conduct remedies, plus provincial support for enforceable municipal rules and independent integrity commissioners. Detailed changes would still require later legal and policy work.",
+      "tradeoff": "Weigh stronger accountability and consistency against process complexity, cost and safeguards against politicized complaints."
+    },
+    {
+      "motion_id": "18869-11268",
+      "prompt": "Would you approve the Downtown Eastside housing changes intended to accelerate SRO replacement and increase social and rental housing?",
+      "context": "The package changed affordability requirements to align with senior-government programs, allowed more height and density, revised inclusionary housing rules and added tenant protections and a grant program. Some projects could include a larger market-rental share in exchange for social housing delivery.",
+      "tradeoff": "Weigh feasibility and replacement of aging SROs against affordability depth, displacement and neighbourhood-change concerns.",
+      "research_source_url": "https://council.vancouver.ca/20251209/documents/phea1rr.pdf"
+    },
+    {
+      "motion_id": "18425-9743",
+      "prompt": "Would you ask the Province to eliminate Vancouver's elected Park Board and transfer its authority to City Council?",
+      "context": "The final motion requested Vancouver Charter changes, transfer of legal obligations and a transition group for parks and recreation services. Implementation depended on provincial legislation and would replace a separately elected governance body.",
+      "tradeoff": "Weigh integrated accountability and service coordination against loss of an independent elected board and transition risk.",
+      "research_source_url": "https://council.vancouver.ca/20231213/documents/cfscA2.pdf"
+    },
+    {
+      "motion_id": "18671-10900",
+      "prompt": "Would you let supportive modular housing remain for each building's useful life and relocate it when a site is needed?",
+      "context": "The proposal sought to avoid losing temporary supportive units as land leases or permits ended. Relocation and continued operation would still require suitable sites, funding, approvals and service arrangements.",
+      "tradeoff": "Weigh preserving existing supportive units against land constraints, relocation costs and competing site plans."
+    },
+    {
+      "motion_id": "18519-10174",
+      "prompt": "Would you install means-prevention fencing on the Granville Street Bridge and contribute City funding?",
+      "context": "The motion cited suicide incidents and the need for higher pedestrian protection as bridge access increased. It sought matching funds and City reallocations, so the final cost and funding split depended on other partners.",
+      "tradeoff": "Weigh safety and suicide prevention against capital cost, bridge design and other transportation priorities."
+    },
+    {
+      "motion_id": "18690-11155",
+      "prompt": "Would you raise all City rezoning, development and building permit-fee categories by 4.5% in 2026 and add new charges for specialized reviews?",
+      "context": "Staff proposed a 4.5% increase across all categories to move the permitting program toward full cost recovery during a market downturn. The package also added charges including a $2,800 pre-application meeting, a $15,000 rezoning workshop, staged fees for project revisions and a refundable preliminary road-tenure review fee.",
+      "tradeoff": "Weigh making applicants cover more of the staff work they request and reducing pressure on general revenues against raising development costs while permit volumes and project viability are already weak.",
+      "research_source_url": "https://council.vancouver.ca/20251112/documents/spec1f.pdf"
+    },
+    {
+      "motion_id": "18764-11069",
+      "prompt": "Would you support lowering Vancouver's municipal voting age to 16 and seek the required Charter change?",
+      "context": "The motion would state Council support, request provincial legislation and examine youth engagement and voter registration. The City could not change the voting age on its own.",
+      "tradeoff": "Weigh earlier democratic participation and habit formation against questions about age, readiness and provincial consistency."
+    },
+    {
+      "motion_id": "18764-11070",
+      "prompt": "Would you restrict waivers of SRA conversion fees unless their value is replaced with funding or deeply affordable homes?",
+      "context": "The proposal sought possible bylaw changes for permits that remove or convert single-room accommodation. It aimed to preserve replacement value but could alter the economics and negotiation of redevelopment proposals.",
+      "tradeoff": "Weigh replacement of low-cost rooms against project feasibility and Council's flexibility to negotiate individual cases."
+    },
+    {
+      "motion_id": "18195-8299",
+      "prompt": "Would you postpone the 1477 West Broadway rezoning decision until Council had considered the Broadway Plan?",
+      "context": "The underlying application proposed a 39-storey mixed-use building. This vote concerned timing and policy sequence, not final approval or rejection of the project.",
+      "tradeoff": "Weigh coordinated area planning and due process against delay and uncertainty for a transit-oriented project."
+    },
+    {
+      "motion_id": "18250-7952",
+      "prompt": "Would you send the rental-zoning changes around shopping streets back for broader Vancouver Plan consultation?",
+      "context": "The referral requested more consultation, assessment of speculation and land-value effects, and consideration of co-ops, co-housing and affordable ownership. It would delay the zoning decision rather than reject rental housing outright.",
+      "tradeoff": "Weigh broader planning and affordability analysis against delaying new secured-rental zoning capacity."
+    },
+    {
+      "motion_id": "18671-10901",
+      "prompt": "Would you study City revenue options that place more of the burden on higher-income residents?",
+      "context": "The motion requested analysis of progressive revenue tools and comparisons of how existing and potential sources affect different income groups. It did not itself enact a tax or fee.",
+      "tradeoff": "Weigh distributional fairness and service funding against administrative, legal and economic constraints on municipal revenue tools."
+    },
+    {
+      "motion_id": "18641-10583",
+      "prompt": "Would you have staff evaluate deferring development levies as part of a broader housing-viability report?",
+      "context": "Deferral could move some charges from building-permit issuance to later instalments, reducing upfront financing needs. The referred work also had to consider infrastructure cash flow, inflation and regional charges; it did not approve a deferral immediately.",
+      "tradeoff": "Weigh near-term development feasibility against delayed infrastructure revenue and collection risk.",
+      "research_source_url": "https://council.vancouver.ca/20250312/documents/cfscmotion1.pdf"
+    },
+    {
+      "motion_id": "18542-10414",
+      "prompt": "Would you authorize approximately $25 million in contracts for World Cup training-site early works at two parks?",
+      "context": "The contracts covered early works at Killarney and Memorial South parks and were expected to run until services were complete, around December 2026. Approval committed substantial project spending before all event costs and long-term site effects were settled.",
+      "tradeoff": "Weigh event readiness and facility investment against cost exposure, park disruption and alternative capital uses.",
+      "research_source_url": "https://council.vancouver.ca/20241211/cfsc20241211ag.htm"
+    },
+    {
+      "motion_id": "18538-10350",
+      "prompt": "Would you allow a Building By-law path that permits natural-gas heating and hot water in new construction?",
+      "context": "Builders could choose a high Zero Carbon Step Code path or a highest-efficiency Energy Step Code path that allows gas. Gas cooking was not at issue; buildings account for a large share of Vancouver emissions, while proponents cited choice, resilience and construction considerations.",
+      "tradeoff": "Weigh builder flexibility and energy choice against emissions, market signals and long-lived gas equipment.",
+      "research_source_url": "https://council.vancouver.ca/20241126/documents/pspc8_revised.pdf"
+    },
+    {
+      "motion_id": "18691-11184",
+      "prompt": "Would you develop right-of-first-refusal and tenant-purchase pathways for affordable housing?",
+      "context": "The proposal requested recommendations enabling tenants, nonprofits, Indigenous groups or governments to acquire properties or preserve public-serving land. A later framework would need funding, eligibility rules and legal authority; this vote did not grant an automatic purchase right.",
+      "tradeoff": "Weigh long-term affordability and tenant agency against transaction complexity, public cost and property-market effects.",
+      "research_source_url": "https://council.vancouver.ca/20251126/documents/pspcmotiona4.pdf"
+    },
+    {
+      "motion_id": "18775-11136",
+      "prompt": "Would you rezone surplus school-board land at East 49th and Knight for a six-storey, roughly 87-unit rental building with 20% below-market floor area?",
+      "context": "The Vancouver School Board leased the former outdoor-basketball-court site to a developer for 99 years after declaring it surplus. The proposal anticipated 87 secured-rental homes, 35% family-sized units and 20% of residential floor area at below-market rents; detailed architecture would be decided later under standardized RR-3B rules.",
+      "tradeoff": "Weigh adding secure rental homes near frequent transit, including below-market and family-sized units, against long-term loss of land beside a school plus neighbourhood concerns about school capacity, traffic and parking.",
+      "research_source_url": "https://council.vancouver.ca/20250916/documents/rr4.pdf"
+    },
+    {
+      "motion_id": "18686-11114",
+      "prompt": "Would you give BC Housing a $1.4 million capital grant to convert 81 market-rental homes into social housing?",
+      "context": "The proposed grant would come from an Empty Homes Tax-funded non-market housing budget and required a two-thirds Council majority. It addressed levies already paid when the project was developed privately before BC Housing's acquisition.",
+      "tradeoff": "Weigh rapid conversion to social housing against grant precedent, value for money and the supermajority requirement."
+    },
+    {
+      "motion_id": "18658-10761",
+      "prompt": "Would you plan a City tenant advocacy office with support, monitoring and enforcement functions?",
+      "context": "The proposal called for an implementation report covering renter navigation, coordination, protection monitoring and enforcement of municipal conditions. Staffing, authority, cost and overlap with provincial tenancy functions would need definition later.",
+      "tradeoff": "Weigh accessible renter support and enforcement against cost, jurisdictional overlap and institutional scope."
+    },
+    {
+      "motion_id": "18391-9415",
+      "prompt": "Would you pursue lease extensions, replacement sites and zoning changes to prevent a net loss of supportive modular housing?",
+      "context": "The motion responded to expiring temporary modular housing arrangements by seeking extensions and longer-term options. Continued units would depend on land, funding, building condition and operating partnerships.",
+      "tradeoff": "Weigh continuity for existing residents against temporary-building limitations, site needs and replacement costs."
+    },
+    {
+      "motion_id": "18371-9268",
+      "prompt": "Would you expand Broadway Plan reporting on rental demolition, displacement and ways to slow demoviction?",
+      "context": "The Broadway area contains extensive older rental housing while planning for major growth near rapid transit. The motion sought better tracking and possible policy responses, rather than imposing an immediate development moratorium.",
+      "tradeoff": "Weigh tenant protection and evidence gathering against added process and possible constraints on new housing delivery."
+    },
+    {
+      "motion_id": "18190-8264",
+      "prompt": "Would you temporarily redesignate industrial land at 1325–1333 East Georgia for modular housing?",
+      "context": "The change would allow temporary modular housing by moving the site from Industrial to General Urban, then require restoration of the industrial designation when the development permit expires. It was not a permanent residential conversion.",
+      "tradeoff": "Weigh immediate housing need against temporary loss of industrial land and the eventual relocation requirement."
+    },
+    {
+      "motion_id": "18673-10964",
+      "prompt": "Would you raise the Empty Homes Tax to 5%, partly tax vacant new inventory and study graduated rates?",
+      "context": "The motion proposed a higher vacancy rate, partial treatment of some unsold new homes and study of rates that increase with prolonged vacancy. It cited housing revenue and reduced vacancies, while changes could affect owners, developers and administration.",
+      "tradeoff": "Weigh incentives to occupy homes and affordable-housing revenue against compliance burdens and effects on new inventory."
+    },
+    {
+      "motion_id": "18825-11370",
+      "prompt": "Would you advance mobile polling, election-day transit access and ranked-choice voting for Vancouver elections?",
+      "context": "The package combined accessibility measures with study and advocacy for ranked-choice voting. Some elements could be planned locally, while fare policy, election law and voting-system changes would require TransLink or provincial cooperation.",
+      "tradeoff": "Weigh participation and majority-supported outcomes against cost, complexity and bundling several reforms together."
+    },
+    {
+      "motion_id": "18763-11081",
+      "prompt": "Would you approve a 25-storey building with 136 social-housing homes at 1111 Broughton Street?",
+      "context": "The nonprofit project would increase permitted density and height substantially and provide rooftop amenity space. Approval was in principle and remained subject to detailed conditions and enactment steps.",
+      "tradeoff": "Weigh 136 social homes in the West End against building scale, neighbourhood impacts and project conditions."
+    },
+    {
+      "motion_id": "18272-8672",
+      "prompt": "Would you approve the Granville Loops redevelopment with six mixed-use buildings?",
+      "context": "The City-owned sites would support strata, secured-rental and social housing, retail and childcare, with buildings up to roughly 121 metres. The proposal substantially increased permitted floor area and depended on detailed conditions.",
+      "tradeoff": "Weigh housing mix, childcare and land value against height, density, traffic and public-land use concerns."
+    },
+    {
+      "motion_id": "18212-8613",
+      "prompt": "Would you approve two 19-storey mixed-use rental buildings near Prior and Malkin?",
+      "context": "The rezoning increased permitted density and height for secured market rental housing, commercial space and cultural amenity space. Approval in principle was subject to conditions and later bylaw enactment.",
+      "tradeoff": "Weigh rental and cultural space against building scale, local impacts and the adequacy of conditions."
+    },
+    {
+      "motion_id": "18182-8155",
+      "prompt": "Would you rezone seven Oak Street duplex properties for market townhouses or rowhouses, displacing 18 rental tenancies under a relocation plan?",
+      "context": "The Cambie Corridor rezoning allowed family-oriented, ground-level ownership housing at up to 1.2 FSR; detailed building plans would come later. The seven existing duplex properties contained 25 homes and 18 rental tenancies. Fourteen tenants qualified for the City policy, and the applicant committed relocation assistance to all 18.",
+      "tradeoff": "Weigh more missing-middle family ownership and developer-funded infrastructure upgrades against demolition of existing lower-density homes, displacement of renters and the loss of secondary rental units.",
+      "research_source_url": "https://council.vancouver.ca/20220208/documents/rr3.pdf"
+    },
+    {
+      "motion_id": "18063-7705",
+      "prompt": "Would you approve a 47-storey mixed-use tower at 1157 Burrard Street?",
+      "context": "The proposal included 289 strata homes, childcare, an arts-and-culture hub and ground-floor commercial space, while more than doubling permitted density. Approval was subject to rezoning conditions and subsequent enactment.",
+      "tradeoff": "Weigh homes and community amenities against tower scale, predominantly strata tenure and downtown impacts."
+    },
+    {
+      "motion_id": "18152-7699",
+      "prompt": "Would you approve a 49-storey mixed-use development at 1450 West Georgia Street?",
+      "context": "The project proposed 355 homes—162 secured market-rental and 193 strata—plus commercial space, with major increases in height and density. A housing agreement and other conditions had to be completed before enactment.",
+      "tradeoff": "Weigh rental supply and mixed tenure against tower scale, the strata component and neighbourhood effects."
+    },
+    {
+      "motion_id": "18695-11255",
+      "prompt": "Would you ask the City and TransLink to evaluate a one-year fare-free bus-route pilot?",
+      "context": "The proposal named busy candidate routes and requested analysis of equity, ridership, cost, operations and funding partners. TransLink controls fares, so the vote initiated evaluation and advocacy rather than making buses free immediately.",
+      "tradeoff": "Weigh affordability and potential ridership gains against operating cost, crowding and who should fund the pilot.",
+      "research_source_url": "https://council.vancouver.ca/20251210/documents/cfscA7.pdf"
+    },
+    {
+      "motion_id": "18221-8807",
+      "prompt": "Would you award the $28.2 million Granville Bridge connector and north-loops construction contract?",
+      "context": "The competitively tendered contract covered walking and cycling connections, demolition of the north loops, street and utility work, and traffic management. The lowest qualified bid was funded from an approved capital plan and the Property Endowment Fund.",
+      "tradeoff": "Weigh safer active transportation and land reconfiguration against construction cost, disruption and project priorities.",
+      "research_source_url": "https://council.vancouver.ca/20221025/documents/r5.pdf"
+    },
+    {
+      "motion_id": "18869-11267",
+      "prompt": "Would you delay the Downtown Eastside housing package for additional provincial, Indigenous and community consultation?",
+      "context": "The referral sought consultation before revised recommendations returned to Council, including with urban Indigenous residents, SRO tenants and communities with deep neighbourhood ties. It concerned timing and consultation, not a final rejection of housing changes.",
+      "tradeoff": "Weigh meaningful consultation and policy revision against delay in SRO replacement and new housing capacity.",
+      "research_source_url": "https://council.vancouver.ca/20251209/documents/phea1rr.pdf"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "version": "1.1.0",
+  "as_of": "2026-09-05",
+  "members": {
+    "councillor-b-montague": {
+      "party": "ABC Vancouver",
+      "party_short": "ABC",
+      "party_color": "#3169a8",
+      "currently_sitting": true,
+      "party_history": "Elected with ABC Vancouver in 2022.",
+      "party_source_url": "https://vancouver.ca/your-government/candidate-profiles.aspx"
+    },
+    "councillor-l-zhou": {
+      "party": "ABC Vancouver",
+      "party_short": "ABC",
+      "party_color": "#3169a8",
+      "currently_sitting": true,
+      "party_history": "Elected with ABC Vancouver in 2022.",
+      "party_source_url": "https://vancouver.ca/your-government/candidate-profiles.aspx"
+    },
+    "councillor-r-bligh": {
+      "party": "Independent",
+      "party_short": "Independent",
+      "party_color": "#6f736d",
+      "currently_sitting": true,
+      "party_history": "Elected with the NPA in 2018, sat as an independent from 2019, joined ABC Vancouver for the 2022 election, and left ABC on February 14, 2025.",
+      "party_source_url": "https://vancouver.citynews.ca/2025/02/14/vancouver-city-council-abc-parts-with-rebecca-bligh/"
+    },
+    "councillor-s-orr": {
+      "party": "COPE",
+      "party_short": "COPE",
+      "party_color": "#bd3b48",
+      "currently_sitting": true,
+      "party_history": "Elected with COPE in the 2025 by-election.",
+      "party_source_url": "https://vancouver.ca/news-calendar/chief-election-officer-declares-candidates-elected.aspx"
+    },
+    "councillor-l-dominato": {
+      "party": "ABC Vancouver",
+      "party_short": "ABC",
+      "party_color": "#3169a8",
+      "currently_sitting": true,
+      "party_history": "Elected with the NPA in 2018, sat as an independent from April 2021, and was elected with ABC Vancouver in 2022.",
+      "party_source_url": "https://vancouver.ca/your-government/candidate-profiles.aspx"
+    },
+    "councillor-l-maloney": {
+      "party": "OneCity",
+      "party_short": "OneCity",
+      "party_color": "#cf4e59",
+      "currently_sitting": true,
+      "party_history": "Elected with OneCity in the 2025 by-election.",
+      "party_source_url": "https://vancouver.ca/news-calendar/chief-election-officer-declares-candidates-elected.aspx"
+    },
+    "councillor-m-klassen": {
+      "party": "ABC Vancouver",
+      "party_short": "ABC",
+      "party_color": "#3169a8",
+      "currently_sitting": true,
+      "party_history": "Elected with ABC Vancouver in 2022.",
+      "party_source_url": "https://vancouver.ca/your-government/candidate-profiles.aspx"
+    },
+    "councillor-p-fry": {
+      "party": "Vancouver Greens",
+      "party_short": "Green",
+      "party_color": "#43814f",
+      "currently_sitting": true,
+      "party_history": "Elected with the Vancouver Green Party in 2018 and 2022.",
+      "party_source_url": "https://vancouver.ca/your-government/candidate-profiles.aspx"
+    },
+    "councillor-p-meiszner": {
+      "party": "ABC Vancouver",
+      "party_short": "ABC",
+      "party_color": "#3169a8",
+      "currently_sitting": true,
+      "party_history": "Elected with ABC Vancouver in 2022.",
+      "party_source_url": "https://vancouver.ca/your-government/candidate-profiles.aspx"
+    },
+    "councillor-s-kirby-yung": {
+      "party": "ABC Vancouver",
+      "party_short": "ABC",
+      "party_color": "#3169a8",
+      "currently_sitting": true,
+      "party_history": "Elected with the NPA in 2018, sat as an independent from April 2021, and was elected with ABC Vancouver in 2022.",
+      "party_source_url": "https://vancouver.ca/your-government/candidate-profiles.aspx"
+    },
+    "mayor-k-sim": {
+      "party": "ABC Vancouver",
+      "party_short": "ABC",
+      "party_color": "#3169a8",
+      "currently_sitting": true,
+      "party_history": "Elected mayor with ABC Vancouver in 2022.",
+      "party_source_url": "https://vancouver.ca/your-government/candidate-profiles.aspx"
+    },
+    "councillor-a-carr": {
+      "party": "Vancouver Greens",
+      "party_short": "Green",
+      "party_color": "#43814f",
+      "currently_sitting": false,
+      "party_history": "Elected with the Vancouver Green Party in 2018 and 2022; resigned from Council in January 2025.",
+      "party_source_url": "https://vancouver.ca/your-government/candidate-profiles.aspx"
+    },
+    "councillor-c-boyle": {
+      "party": "OneCity",
+      "party_short": "OneCity",
+      "party_color": "#cf4e59",
+      "currently_sitting": false,
+      "party_history": "Elected with OneCity in 2018 and 2022; resigned from Council in December 2024.",
+      "party_source_url": "https://vancouver.ca/your-government/candidate-profiles.aspx"
+    },
+    "councillor-c-hardwick": {
+      "party": "Independent",
+      "party_short": "Independent",
+      "party_color": "#6f736d",
+      "currently_sitting": false,
+      "party_history": "Elected with the NPA in 2018, left the NPA in April 2021 to sit as an independent, and ran for mayor with TEAM in 2022.",
+      "party_source_url": "https://lisadominato.ca/news/"
+    },
+    "councillor-j-swanson": {
+      "party": "COPE",
+      "party_short": "COPE",
+      "party_color": "#bd3b48",
+      "currently_sitting": false,
+      "party_history": "Elected with COPE in 2018.",
+      "party_source_url": "https://vancouver.ca/your-government/2018-random-ballot-order.aspx"
+    },
+    "councillor-m-de-genova": {
+      "party": "NPA",
+      "party_short": "NPA",
+      "party_color": "#355476",
+      "currently_sitting": false,
+      "party_history": "Elected with the Non-Partisan Association in 2018.",
+      "party_source_url": "https://vancouver.ca/your-government/2018-random-ballot-order.aspx"
+    },
+    "councillor-m-wiebe": {
+      "party": "Vancouver Greens",
+      "party_short": "Green",
+      "party_color": "#43814f",
+      "currently_sitting": false,
+      "party_history": "Elected with the Vancouver Green Party in 2018.",
+      "party_source_url": "https://vancouver.ca/your-government/2018-random-ballot-order.aspx"
+    },
+    "mayor-k-stewart": {
+      "party": "Independent",
+      "party_short": "Independent",
+      "party_color": "#6f736d",
+      "currently_sitting": false,
+      "party_history": "Elected mayor as an independent in 2018 and ran with Forward with Kennedy Stewart in 2022.",
+      "party_source_url": "https://vancouver.ca/your-government/candidate-profiles.aspx"
+    }
+  }
+}

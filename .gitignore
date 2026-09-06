@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+data/classifications/run_log.jsonl
+data/enrichment/minutes/
+data/enrichment/browser_minutes/*.pdf
+data/enrichment/browser_minutes/*.pages.json
+data/enrichment/wayback_index.json

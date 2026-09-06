@@ -1,0 +1,362 @@
+[
+  {
+    "member_id": "councillor-b-montague",
+    "name": "Councillor B Montague",
+    "role": "Councillor",
+    "first_vote_date": "2022-11-07",
+    "last_vote_date": "2026-04-21",
+    "recorded_votes": 2173,
+    "positions": 1828,
+    "participated": 1829,
+    "participation_rate": 0.8417,
+    "vote_counts": {
+      "In Favour": 1653,
+      "In Opposition": 175,
+      "Abstain": 1,
+      "Absent": 329,
+      "Declared Conflict": 8,
+      "No Vote": 7,
+      "Ineligible": 0
+    }
+  },
+  {
+    "member_id": "councillor-l-zhou",
+    "name": "Councillor L Zhou",
+    "role": "Councillor",
+    "first_vote_date": "2022-11-07",
+    "last_vote_date": "2026-04-21",
+    "recorded_votes": 2149,
+    "positions": 2090,
+    "participated": 2094,
+    "participation_rate": 0.9744,
+    "vote_counts": {
+      "In Favour": 1942,
+      "In Opposition": 148,
+      "Abstain": 4,
+      "Absent": 52,
+      "Declared Conflict": 1,
+      "No Vote": 2,
+      "Ineligible": 0
+    }
+  },
+  {
+    "member_id": "councillor-r-bligh",
+    "name": "Councillor R Bligh",
+    "role": "Councillor",
+    "first_vote_date": "2021-09-21",
+    "last_vote_date": "2026-04-21",
+    "recorded_votes": 3029,
+    "positions": 2246,
+    "participated": 2271,
+    "participation_rate": 0.7498,
+    "vote_counts": {
+      "In Favour": 2094,
+      "In Opposition": 152,
+      "Abstain": 25,
+      "Absent": 750,
+      "Declared Conflict": 0,
+      "No Vote": 3,
+      "Ineligible": 5
+    }
+  },
+  {
+    "member_id": "councillor-s-orr",
+    "name": "Councillor S Orr",
+    "role": "Councillor",
+    "first_vote_date": "2025-04-15",
+    "last_vote_date": "2026-04-21",
+    "recorded_votes": 715,
+    "positions": 671,
+    "participated": 683,
+    "participation_rate": 0.9552,
+    "vote_counts": {
+      "In Favour": 610,
+      "In Opposition": 61,
+      "Abstain": 12,
+      "Absent": 31,
+      "Declared Conflict": 0,
+      "No Vote": 1,
+      "Ineligible": 0
+    }
+  },
+  {
+    "member_id": "councillor-l-dominato",
+    "name": "Councillor L Dominato",
+    "role": "Councillor",
+    "first_vote_date": "2021-09-21",
+    "last_vote_date": "2026-04-14",
+    "recorded_votes": 3054,
+    "positions": 2710,
+    "participated": 2726,
+    "participation_rate": 0.8926,
+    "vote_counts": {
+      "In Favour": 2515,
+      "In Opposition": 195,
+      "Abstain": 16,
+      "Absent": 321,
+      "Declared Conflict": 3,
+      "No Vote": 3,
+      "Ineligible": 1
+    }
+  },
+  {
+    "member_id": "councillor-l-maloney",
+    "name": "Councillor L Maloney",
+    "role": "Councillor",
+    "first_vote_date": "2025-04-15",
+    "last_vote_date": "2026-04-14",
+    "recorded_votes": 714,
+    "positions": 696,
+    "participated": 707,
+    "participation_rate": 0.9902,
+    "vote_counts": {
+      "In Favour": 635,
+      "In Opposition": 61,
+      "Abstain": 11,
+      "Absent": 6,
+      "Declared Conflict": 0,
+      "No Vote": 1,
+      "Ineligible": 0
+    }
+  },
+  {
+    "member_id": "councillor-m-klassen",
+    "name": "Councillor M Klassen",
+    "role": "Councillor",
+    "first_vote_date": "2022-11-07",
+    "last_vote_date": "2026-04-14",
+    "recorded_votes": 2144,
+    "positions": 1997,
+    "participated": 2000,
+    "participation_rate": 0.9328,
+    "vote_counts": {
+      "In Favour": 1849,
+      "In Opposition": 148,
+      "Abstain": 3,
+      "Absent": 141,
+      "Declared Conflict": 2,
+      "No Vote": 1,
+      "Ineligible": 0
+    }
+  },
+  {
+    "member_id": "councillor-p-fry",
+    "name": "Councillor P Fry",
+    "role": "Councillor",
+    "first_vote_date": "2021-09-21",
+    "last_vote_date": "2026-04-14",
+    "recorded_votes": 3058,
+    "positions": 2740,
+    "participated": 2812,
+    "participation_rate": 0.9196,
+    "vote_counts": {
+      "In Favour": 2551,
+      "In Opposition": 189,
+      "Abstain": 72,
+      "Absent": 227,
+      "Declared Conflict": 12,
+      "No Vote": 5,
+      "Ineligible": 2
+    }
+  },
+  {
+    "member_id": "councillor-p-meiszner",
+    "name": "Councillor P Meiszner",
+    "role": "Councillor",
+    "first_vote_date": "2022-11-07",
+    "last_vote_date": "2026-04-14",
+    "recorded_votes": 2134,
+    "positions": 1909,
+    "participated": 1922,
+    "participation_rate": 0.9007,
+    "vote_counts": {
+      "In Favour": 1771,
+      "In Opposition": 138,
+      "Abstain": 13,
+      "Absent": 206,
+      "Declared Conflict": 0,
+      "No Vote": 1,
+      "Ineligible": 5
+    }
+  },
+  {
+    "member_id": "councillor-s-kirby-yung",
+    "name": "Councillor S Kirby-Yung",
+    "role": "Councillor",
+    "first_vote_date": "2021-09-21",
+    "last_vote_date": "2026-04-14",
+    "recorded_votes": 3058,
+    "positions": 2711,
+    "participated": 2722,
+    "participation_rate": 0.8901,
+    "vote_counts": {
+      "In Favour": 2469,
+      "In Opposition": 242,
+      "Abstain": 11,
+      "Absent": 324,
+      "Declared Conflict": 7,
+      "No Vote": 5,
+      "Ineligible": 0
+    }
+  },
+  {
+    "member_id": "mayor-k-sim",
+    "name": "Mayor K Sim",
+    "role": "Mayor",
+    "first_vote_date": "2022-11-07",
+    "last_vote_date": "2026-04-14",
+    "recorded_votes": 2134,
+    "positions": 1453,
+    "participated": 1456,
+    "participation_rate": 0.6823,
+    "vote_counts": {
+      "In Favour": 1337,
+      "In Opposition": 116,
+      "Abstain": 3,
+      "Absent": 642,
+      "Declared Conflict": 29,
+      "No Vote": 2,
+      "Ineligible": 5
+    }
+  },
+  {
+    "member_id": "councillor-a-carr",
+    "name": "Councillor A Carr",
+    "role": "Councillor",
+    "first_vote_date": "2021-09-21",
+    "last_vote_date": "2024-12-18",
+    "recorded_votes": 2150,
+    "positions": 2059,
+    "participated": 2091,
+    "participation_rate": 0.9726,
+    "vote_counts": {
+      "In Favour": 1892,
+      "In Opposition": 167,
+      "Abstain": 32,
+      "Absent": 49,
+      "Declared Conflict": 0,
+      "No Vote": 10,
+      "Ineligible": 0
+    }
+  },
+  {
+    "member_id": "councillor-c-boyle",
+    "name": "Councillor C Boyle",
+    "role": "Councillor",
+    "first_vote_date": "2021-09-21",
+    "last_vote_date": "2024-12-11",
+    "recorded_votes": 2192,
+    "positions": 1783,
+    "participated": 1799,
+    "participation_rate": 0.8207,
+    "vote_counts": {
+      "In Favour": 1624,
+      "In Opposition": 159,
+      "Abstain": 16,
+      "Absent": 386,
+      "Declared Conflict": 5,
+      "No Vote": 2,
+      "Ineligible": 0
+    }
+  },
+  {
+    "member_id": "councillor-c-hardwick",
+    "name": "Councillor C Hardwick",
+    "role": "Councillor",
+    "first_vote_date": "2021-09-21",
+    "last_vote_date": "2022-10-25",
+    "recorded_votes": 894,
+    "positions": 746,
+    "participated": 770,
+    "participation_rate": 0.8613,
+    "vote_counts": {
+      "In Favour": 563,
+      "In Opposition": 183,
+      "Abstain": 24,
+      "Absent": 122,
+      "Declared Conflict": 0,
+      "No Vote": 1,
+      "Ineligible": 1
+    }
+  },
+  {
+    "member_id": "councillor-j-swanson",
+    "name": "Councillor J Swanson",
+    "role": "Councillor",
+    "first_vote_date": "2021-09-21",
+    "last_vote_date": "2022-10-25",
+    "recorded_votes": 890,
+    "positions": 856,
+    "participated": 865,
+    "participation_rate": 0.9719,
+    "vote_counts": {
+      "In Favour": 710,
+      "In Opposition": 146,
+      "Abstain": 9,
+      "Absent": 24,
+      "Declared Conflict": 0,
+      "No Vote": 1,
+      "Ineligible": 0
+    }
+  },
+  {
+    "member_id": "councillor-m-de-genova",
+    "name": "Councillor M De Genova",
+    "role": "Councillor",
+    "first_vote_date": "2021-09-21",
+    "last_vote_date": "2022-10-25",
+    "recorded_votes": 890,
+    "positions": 711,
+    "participated": 719,
+    "participation_rate": 0.8079,
+    "vote_counts": {
+      "In Favour": 579,
+      "In Opposition": 132,
+      "Abstain": 8,
+      "Absent": 149,
+      "Declared Conflict": 21,
+      "No Vote": 1,
+      "Ineligible": 0
+    }
+  },
+  {
+    "member_id": "councillor-m-wiebe",
+    "name": "Councillor M Wiebe",
+    "role": "Councillor",
+    "first_vote_date": "2021-09-21",
+    "last_vote_date": "2022-10-25",
+    "recorded_votes": 894,
+    "positions": 819,
+    "participated": 823,
+    "participation_rate": 0.9206,
+    "vote_counts": {
+      "In Favour": 760,
+      "In Opposition": 59,
+      "Abstain": 4,
+      "Absent": 62,
+      "Declared Conflict": 8,
+      "No Vote": 1,
+      "Ineligible": 0
+    }
+  },
+  {
+    "member_id": "mayor-k-stewart",
+    "name": "Mayor K Stewart",
+    "role": "Mayor",
+    "first_vote_date": "2021-09-21",
+    "last_vote_date": "2022-10-25",
+    "recorded_votes": 890,
+    "positions": 675,
+    "participated": 675,
+    "participation_rate": 0.7584,
+    "vote_counts": {
+      "In Favour": 615,
+      "In Opposition": 60,
+      "Abstain": 0,
+      "Absent": 213,
+      "Declared Conflict": 0,
+      "No Vote": 2,
+      "Ineligible": 0
+    }
+  }
+]

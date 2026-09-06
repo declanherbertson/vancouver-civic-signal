@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "classifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "motion_id": { "type": "string" },
+          "primary_category": {
+            "type": "string",
+            "enum": [
+              "housing_development",
+              "transportation_streets",
+              "climate_environment",
+              "public_safety",
+              "homelessness_social_services",
+              "city_finance_taxes",
+              "governance_accountability",
+              "economic_development",
+              "parks_culture_public_space",
+              "infrastructure_core_services",
+              "equity_reconciliation",
+              "licensing_regulation",
+              "procedural_administrative",
+              "other"
+            ]
+          },
+          "secondary_categories": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "housing_development",
+                "transportation_streets",
+                "climate_environment",
+                "public_safety",
+                "homelessness_social_services",
+                "city_finance_taxes",
+                "governance_accountability",
+                "economic_development",
+                "parks_culture_public_space",
+                "infrastructure_core_services",
+                "equity_reconciliation",
+                "licensing_regulation",
+                "procedural_administrative",
+                "other"
+              ]
+            },
+            "maxItems": 2
+          },
+          "policy_direction": {
+            "type": "string",
+            "enum": [
+              "expand_public_program_or_service",
+              "reduce_public_program_or_service",
+              "increase_spending_tax_or_fee",
+              "reduce_spending_tax_or_fee",
+              "increase_rules_or_enforcement",
+              "reduce_rules_or_enforcement",
+              "approve_development_or_project",
+              "oppose_or_restrict_development_or_project",
+              "request_study_or_information",
+              "appoint_or_elect",
+              "procedural_or_symbolic",
+              "unclear_or_mixed"
+            ]
+          },
+          "public_impact": {
+            "type": "string",
+            "enum": ["low", "moderate", "high", "unclear"]
+          },
+          "summary": { "type": "string" },
+          "keywords": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1,
+            "maxItems": 5
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "needs_review": { "type": "boolean" },
+          "rationale": { "type": "string" }
+        },
+        "required": [
+          "motion_id",
+          "primary_category",
+          "secondary_categories",
+          "policy_direction",
+          "public_impact",
+          "summary",
+          "keywords",
+          "confidence",
+          "needs_review",
+          "rationale"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["classifications"],
+  "additionalProperties": false
+}

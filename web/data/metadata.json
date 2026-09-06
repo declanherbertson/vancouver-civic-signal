@@ -1,0 +1,79 @@
+{
+  "title": "Vancouver council voting records",
+  "source": {
+    "publisher": "City of Vancouver",
+    "dataset_id": "council-voting-records",
+    "dataset_url": "https://opendata.vancouver.ca/explore/dataset/council-voting-records/",
+    "local_file": "data/raw/council-voting-records.csv",
+    "sha256": "1028a7ac28bc7c8370606122fc6f73927ae1ee2eabb1be09140927f00ef03264",
+    "headers": [
+      "Meeting ID",
+      "Meeting Type",
+      "Vote Date",
+      "Vote Number",
+      "Agenda Description",
+      "Vote Start Date Time",
+      "Council Member",
+      "Vote",
+      "Decision",
+      "Vote Detail Id"
+    ],
+    "row_count": 38717,
+    "date_min": "2021-01-19",
+    "date_max": "2026-04-21"
+  },
+  "selection": {
+    "window_start": "2021-09-05",
+    "window_end": "2026-09-05",
+    "actual_date_min": "2021-09-21",
+    "actual_date_max": "2026-04-21",
+    "meeting_types": [
+      "Auditor General Committee",
+      "City Finance & Services",
+      "Council",
+      "Policy & Strategic Priorities",
+      "Public Hearing",
+      "Special Council"
+    ],
+    "vote_rows": 33162,
+    "motions": 3058,
+    "members": 18
+  },
+  "generated_at": "2026-09-05T18:33:59.930952+00:00",
+  "classification": {
+    "status": "complete",
+    "taxonomy_version": "1.0.0",
+    "classified_motions": 3058,
+    "total_motions": 3058
+  },
+  "notes": [
+    "The City states that corresponding meeting minutes are the official voting record.",
+    "Abstain is retained as published and is not merged into In Favour in this project.",
+    "The source may lag meetings because records are published after meeting minutes."
+  ],
+  "enrichment": {
+    "status": "complete_with_gaps",
+    "matched_motions": 2600,
+    "unmatched_motions": 458,
+    "pending_motions": 0,
+    "total_motions": 3058,
+    "generated_at": "2026-09-05T19:57:09.471726+00:00"
+  },
+  "alignment_ballot": {
+    "version": "3.0.0",
+    "curated_motions": 40,
+    "quiz_motions": 20,
+    "curated_at": "2026-09-05"
+  },
+  "motion_stages": {
+    "method": "deterministic_high_precision_v1",
+    "direct_amendments": 585,
+    "headline_motions": 2473,
+    "total_motions": 3058
+  },
+  "party_affiliations": {
+    "version": "1.1.0",
+    "as_of": "2026-09-05",
+    "members": 18
+  }
+}
