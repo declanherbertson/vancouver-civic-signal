@@ -87,7 +87,7 @@ function cacheElements() {
     "motion-list", "load-more", "clear-filters", "match-note", "match-results",
     "ballot-motions", "clear-ballot", "ballot-count", "footer-source", "motion-dialog",
     "dialog-content", "alignment-progress-label", "alignment-progress-context", "alignment-progress-bar", "report-method-note",
-    "alignment-question", "alignment-results-kicker", "alignment-results-note", "include-former-members", "alignment-results", "clear-alignment", "alignment-start",
+    "alignment-question", "alignment-results-kicker", "alignment-results-note", "alignment-results-disclaimer", "include-former-members", "alignment-results", "clear-alignment", "alignment-start",
     "ballot-include-former-members",
   ].forEach((id) => {
     elements[toCamel(id)] = document.getElementById(id);
@@ -606,6 +606,7 @@ function renderAlignment() {
 function renderAlignmentResults(featuredIds, answeredCount) {
   elements.includeFormerMembers.checked = state.includeFormerMembers;
   if (answeredCount < ALIGNMENT_UNLOCK_COUNT) {
+    elements.alignmentResultsDisclaimer.hidden = true;
     const answersRemaining = ALIGNMENT_UNLOCK_COUNT - answeredCount;
     elements.alignmentResultsKicker.textContent = `${answersRemaining} answer${answersRemaining === 1 ? "" : "s"} needed`;
     elements.alignmentResultsNote.textContent = `Answer ${answersRemaining} more to make a comparison available.`;
@@ -613,11 +614,13 @@ function renderAlignmentResults(featuredIds, answeredCount) {
     return;
   }
   if (!state.alignmentResultsRevealed) {
+    elements.alignmentResultsDisclaimer.hidden = true;
     elements.alignmentResultsKicker.textContent = "Ready to view";
     elements.alignmentResultsNote.textContent = "Reveal it now or keep voting. It will be shown automatically when you reach the end of the 20-question starter set.";
     elements.alignmentResults.innerHTML = `<div class="alignment-reveal"><span aria-hidden="true">?</span><button type="button" class="primary-button" data-action="reveal-alignment">Show my comparison</button></div>`;
     return;
   }
+  elements.alignmentResultsDisclaimer.hidden = false;
   elements.alignmentResultsKicker.textContent = "Your results";
   elements.alignmentResultsNote.textContent = `Based on your ${answeredCount} answered questions. Comparable means the member cast In Favour or In Opposition on that exact motion; abstentions are neutral and excluded.`;
   const minimumComparable = Math.max(3, Math.ceil(answeredCount * 0.35));

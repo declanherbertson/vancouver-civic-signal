@@ -6,8 +6,8 @@
     <meta name="description" content="Explore City of Vancouver council voting records by member, issue, and motion.">
     <title>Vancouver Votes — Council voting records</title>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23174c50'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Georgia' font-size='25' fill='white'%3EVV%3C/text%3E%3C/svg%3E">
-    <link rel="stylesheet" href="styles.css?v=17">
-    <script src="app.js?v=17" defer></script>
+    <link rel="stylesheet" href="styles.css?v=19">
+    <script src="app.js?v=19" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -117,8 +117,9 @@
         <section id="alignment-view" class="view" hidden aria-labelledby="alignment-title">
           <div class="shell page-heading alignment-heading">
             <h1 id="alignment-title">Find your council match</h1>
-            <p>Answer 20 questions drawn from divided Council votes and compare your choices with councillors' records. You can continue with 20 more afterward.</p>
+            <p class="alignment-intro">Answer 20 questions drawn from divided Council votes and compare your choices with councillors' records. You can continue with 20 more afterward.</p>
             <button id="alignment-start" class="primary-button alignment-start" type="button">Get started</button>
+            <p class="alignment-disclaimer">Your result shows which councillors voted like you on these motions—not your overall political match. The quiz emphasizes divisions between the governing majority and other councillors because those votes better distinguish voting records.</p>
           </div>
           <div class="shell alignment-progress-wrap">
             <div class="alignment-progress-copy"><strong id="alignment-progress-label">0 of 20 starter questions answered</strong><span id="alignment-progress-context">Results unlock after 10 answers.</span></div>
@@ -132,6 +133,7 @@
                 <button id="clear-alignment" class="text-button" type="button">Start over</button>
               </div>
               <p id="alignment-results-note" class="alignment-note"></p>
+              <p id="alignment-results-disclaimer" class="alignment-results-disclaimer" hidden>Your result shows which councillors voted like you on these motions—not your overall political match. The quiz emphasizes divisions between the governing majority and other councillors because those votes better distinguish voting records.</p>
               <label class="alignment-former-toggle"><input id="include-former-members" type="checkbox"><span>Include former Council members</span></label>
               <div id="alignment-results" class="alignment-result-list"></div>
             </aside>
