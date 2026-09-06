@@ -186,7 +186,7 @@ def invoke_codex(
     schema_path: Path,
     model: str | None,
 ) -> dict:
-    with tempfile.TemporaryDirectory(prefix="vancouver-votes-codex-") as temp_dir:
+    with tempfile.TemporaryDirectory(prefix="vancouver-civic-signal-codex-") as temp_dir:
         result_path = Path(temp_dir) / "result.json"
         command = [
             executable,

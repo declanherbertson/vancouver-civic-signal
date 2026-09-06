@@ -19,7 +19,8 @@ const VOTE_ORDER = [
   "Ineligible",
 ];
 const POSITION_VOTES = new Set(["In Favour", "In Opposition"]);
-const BALLOT_KEY = "vancouver-votes-ballot-v1";
+const BALLOT_KEY = "vancouver-civic-signal-ballot-v1";
+const LEGACY_BALLOT_KEY = "vancouver-votes-ballot-v1";
 const ALIGNMENT_UNLOCK_COUNT = 10;
 const PAGE_SIZE = 40;
 
@@ -747,7 +748,8 @@ function handleActionClick(event) {
 
 function loadBallot() {
   try {
-    const value = JSON.parse(localStorage.getItem(BALLOT_KEY) || "{}");
+    const saved = localStorage.getItem(BALLOT_KEY) ?? localStorage.getItem(LEGACY_BALLOT_KEY) ?? "{}";
+    const value = JSON.parse(saved);
     if (!value || typeof value !== "object" || Array.isArray(value)) return {};
     return Object.fromEntries(Object.entries(value).filter(([, stance]) => stance === "support" || stance === "oppose"));
   } catch {

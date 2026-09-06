@@ -1,4 +1,4 @@
-# Vancouver Votes
+# Vancouver Civic Signal
 
 A local, reproducible pipeline and interactive report-card interface for City of Vancouver council voting records.
 
@@ -65,8 +65,8 @@ Report cards aggregate the City's recorded statuses; they do not assign grades o
 Clone the repository and run the already-built site:
 
 ```bash
-git clone https://github.com/declanherbertson/votevancouver.git
-cd votevancouver
+git clone https://github.com/declanherbertson/vancouver-civic-signal.git
+cd vancouver-civic-signal
 python3 scripts/serve.py
 ```
 
@@ -76,7 +76,7 @@ No npm install or third-party Python packages are required to serve the existing
 
 ## GitHub Pages deployment
 
-The public site is deployed from the contents of `web/` by `.github/workflows/pages.yml`. A push to `main` automatically publishes a new build to [https://declanherbertson.github.io/votevancouver/](https://declanherbertson.github.io/votevancouver/). The workflow can also be run manually from the repository's **Actions** tab.
+The public site is deployed from the contents of `web/` by `.github/workflows/pages.yml`. A push to `main` automatically publishes a new build to [https://declanherbertson.github.io/vancouver-civic-signal/](https://declanherbertson.github.io/vancouver-civic-signal/). The workflow can also be run manually from the repository's **Actions** tab.
 
 GitHub Pages serves only the already-generated static interface and JSON. Data preparation, minutes enrichment, and Codex classification run locally; commit and push the refreshed `web/data/` files to publish their results. Browser ballots remain private to that browser's `localStorage` and are not sent to GitHub or another application server.
 
@@ -85,7 +85,7 @@ GitHub Pages serves only the already-generated static interface and JSON. Data p
 The checked-in `web/data` files are ready to view. To refresh every stage from the current raw CSV, run these commands in order:
 
 ```bash
-cd votevancouver
+cd vancouver-civic-signal
 
 # Reproduce the current five-year selection and normalized files
 python3 scripts/prepare_data.py --as-of 2026-09-05

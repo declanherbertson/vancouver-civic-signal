@@ -37,7 +37,11 @@ a { color: inherit; }
 .site-header { position: sticky; top: 0; z-index: 30; background: rgb(23 76 80 / 96%); color: white; border-bottom: 1px solid rgb(255 255 255 / 14%); backdrop-filter: blur(14px); }
 .header-inner { width: min(1240px, calc(100% - 40px)); min-height: 76px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; }
-.brand-mark { width: 42px; height: 42px; display: grid; place-items: center; border: 1px solid rgb(255 255 255 / 55%); border-radius: 50%; font-family: Georgia, serif; font-size: 14px; letter-spacing: -.05em; }
+.brand-mark { width: 42px; height: 42px; padding-bottom: 10px; display: flex; align-items: flex-end; justify-content: center; gap: 3px; border: 1px solid rgb(255 255 255 / 55%); border-radius: 50%; }
+.brand-mark > span { width: 3px; background: white; border-radius: 999px; }
+.brand-mark > span:nth-child(1) { height: 7px; opacity: .7; }
+.brand-mark > span:nth-child(2) { height: 12px; opacity: .85; }
+.brand-mark > span:nth-child(3) { height: 18px; }
 .brand strong, .brand small { display: block; }
 .brand strong { font-family: Georgia, serif; font-size: 19px; font-weight: 500; line-height: 1.1; }
 .brand small { margin-top: 2px; color: rgb(255 255 255 / 68%); font-size: 10px; letter-spacing: .04em; }
